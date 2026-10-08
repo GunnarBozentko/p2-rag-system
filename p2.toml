@@ -5,7 +5,7 @@
 # retrievers with cfg.table("dense").
 
 # "498E" or "598E"; 598E switches on the checks for the rider.
-section = "498E"
+section = "598E"
 
 [run]
 # How many documents each query keeps in a run file.
