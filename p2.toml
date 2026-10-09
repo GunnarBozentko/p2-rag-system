@@ -33,6 +33,12 @@ model = "BAAI/bge-small-en-v1.5"
 systems = ["bm25", "dense"]
 k = 60
 
+[rerank]
+# The system whose top candidates Claude reorders, how many, and how many characters of each it sees.
+first_stage = "hybrid"
+candidates = 20
+passage_chars = 600
+
 [answer]
 # How many chunks `p2 answer` sends to Claude with each question.
 top = 5
