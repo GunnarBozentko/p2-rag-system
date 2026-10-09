@@ -28,6 +28,11 @@ b = 0.4
 # The embedding model for the dense retriever: "BAAI/bge-small-en-v1.5" or "minishlab/potion-retrieval-32M".
 model = "BAAI/bge-small-en-v1.5"
 
+[hybrid]
+# The two systems reciprocal rank fusion combines, and its constant k (each document scores the sum of 1 / (k + rank)).
+systems = ["bm25", "dense"]
+k = 60
+
 [answer]
 # How many chunks `p2 answer` sends to Claude with each question.
 top = 5
