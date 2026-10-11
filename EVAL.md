@@ -25,7 +25,12 @@ The minimum detectable difference is the smallest gap this many queries could re
 
 For each of `dense`, `hybrid` and `rerank`, one or two sentences: the embedding model, how documents were chunked, what was fused and how, how many candidates the reranker saw, and anything you changed from the 12 and 13 lab code.
 
-TODO: describe your three systems.
+
+For the dense model I used the BAAI/bge-small-en-v1.5 model with a cosine scoring similarity and chunked documents in 300 words with 50 words of overlap. I got a MRR of .562, and the changes I made from lab 12 is that we broke down the model to query against every chunk rather than just one whole article.
+
+For the hybrid model I used the bm25 and dense models combined with a reciprocal rank fusion of k=60 and chunked documents in 300 words with 50 words of overlap. I got a MRR of .471, and the changes I made from lab 13 is that a document that gets a score of 0 from the system gets no vote from that system.
+
+For the rerank model the first stage is hybrid and then Claude sonnet reordered the hybrid's top 20 list. The rerank model has a MRR score of .75 and the only change it made from lab 13 is that each number in the response must be numbered from 1 to 20 instead of just a list of integers.
 
 ### Practice queries (20)
 
