@@ -102,7 +102,12 @@ Which differences are distinguishable from zero and which are not?
 What is the minimum detectable difference at 20 queries, and what does that say about any gap smaller than it?
 Which claim from lecture 12 or 13 did your numbers support, and which did they leave open?
 
-TODO: write what the practice-query intervals let you claim.
+Looking at our table, we can see we have statistically significant intervals that do not include 0. If our interval does not include 0, this means we are 95% confident that the mean difference when comparing these two models/metrics is significantly distinguishable. Looking at our table we see that rerank minus BM25 for the MRR@10 metric is significant, as well as rerank minus dense for the nDCG@10 metric. We then see that Rerank minus hybrid is significant for all three metrics of Recall@10, MRR@10, and nDCG@10. All dense minus bm25, hybrid minus bm25, and hybrid minus dense include 0 in their intervals. Rerank minus BM25 included zero for recall@10 and nDCG@10. For rerank minus dense 0 was in the interval for recall@10 and MRR@10.
+
+The minimum detectable difference at 20 queries is the true difference needed between two methods on a designated metric to correctly identify there is a distinguishable difference between the two 80% of the time. Our MDD ranges from .141 to .415. What this means when there is a gap smaller than the minimum detectable difference at 20 queries is that the differences between the models are invisible to the gold set, whether there is a true difference or not.
+
+The claim from lecture 12 that BM25 and Dense each miss in a predictable kind of query is backed up by my observations. We saw that BM25 matches exact words, and it got a 0 for MRR@10 for the paraphrase section. Dense got a .333 MRR score for the identifier questions, which makes sense as it searches for meanings. This is not exactly proven though as we do not have an interval to go off for this. One claim that was left open was that BM25 is the baseline to beat, and dense models usually beat it on average. We can see that in our intervals for dense - BM25, all three metric intervals included 0. This means we are not able to definitively say there is a distinguishable difference in the performance of these two models. The claim from lecture 13 that can be supported is that a reranker can't rescue a document that isn't among its candidates. This is supported by my data as when the relevant section was in the hybrid's initial top 20, the reranker was able to effectively reorder the relevant section to first. If the relevant section was not in the top 20, it was missed completely.
+
 
 ---
 
