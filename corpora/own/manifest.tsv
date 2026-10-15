@@ -573,3 +573,434 @@ docid	title	source	license	notes
 2510.13927	Long-Term Spatio-Temporal Forecasting of Monthly Rainfall in West Bengal Using Ensemble Learning Approaches	https://arxiv.org/abs/2510.13927	cc0-1.0	file: 2510.13927.md
 2511.23140	Multi-fidelity Bayesian Optimization Framework for CFD-Based Non-Premixed Burner Design	https://arxiv.org/abs/2511.23140	cc0-1.0	file: 2511.23140.md
 2512.24211	The Malaysian Election Corpus (MECo): Electoral Maps and Cartograms from 1954 to 2025	https://arxiv.org/abs/2512.24211	cc0-1.0	file: 2512.24211.md
+2401.00641	Hierarchical Bayesian Modeling for Time-Dependent Inverse Uncertainty Quantification	https://arxiv.org/abs/2401.00641	cc-by-4.0	file: 2401.00641.md
+2401.01812	Robust learning of staged tree models: A case study in evaluating transport services	https://arxiv.org/abs/2401.01812	cc-by-4.0	file: 2401.01812.md
+2401.01848	A spatial mixture model for spaceborne lidar observations over mixed forest and non-forest land types	https://arxiv.org/abs/2401.01848	cc-by-4.0	file: 2401.01848.md
+2401.01849	The expected value of sample information calculations for external validation of risk prediction models	https://arxiv.org/abs/2401.01849	cc-by-4.0	file: 2401.01849.md
+2401.01969	A Comparative Study with Traditional and Transfer Learning-enhanced Machine Learning Algorithms for Geotechnical Characterisation of Coal Spoil	https://arxiv.org/abs/2401.01969	cc-by-4.0	file: 2401.01969.md
+2401.03101	Forecasting hospital discharges for respiratory conditions in Costa Rica using climate and pollution data	https://arxiv.org/abs/2401.03101	cc-by-4.0	file: 2401.03101.md
+2401.03559	Statistical Static Timing Analysis of VLSI as the Statistics of Correlated Extremes	https://arxiv.org/abs/2401.03559	cc-by-4.0	file: 2401.03559.md
+2401.03633	A Spatial-statistical model to analyse historical rutting data	https://arxiv.org/abs/2401.03633	cc-by-4.0	file: 2401.03633.md
+2401.03747	The Importance of Corner Frequency in Site-Based Stochastic Ground Motion Models	https://arxiv.org/abs/2401.03747	cc-by-4.0	file: 2401.03747.md
+2401.03875	A contribution to discern the true impact of covid-19 on human mortality	https://arxiv.org/abs/2401.03875	cc-by-4.0	file: 2401.03875.md
+2401.05728	A General Method for Resampling Autocorrelated Spatial Data	https://arxiv.org/abs/2401.05728	cc-by-4.0	file: 2401.05728.md
+2401.05931	Stereographic Projections for Designs on the Sphere	https://arxiv.org/abs/2401.05931	cc-by-4.0	file: 2401.05931.md
+2401.06515	A sequential Monte Carlo algorithm for data assimilation problems in ecology	https://arxiv.org/abs/2401.06515	cc-by-4.0	file: 2401.06515.md
+2401.08070	Automated lag-selection for multi-step univariate time series forecast using Bayesian Optimization: Forecast station-wise monthly rainfall of nine divisional cities of Bangladesh	https://arxiv.org/abs/2401.08070	cc-by-4.0	file: 2401.08070.md
+2401.08247	Flexible Bayesian Modelling of Age-Specific Counts in Many Demographic Subpopulations	https://arxiv.org/abs/2401.08247	cc-by-4.0	file: 2401.08247.md
+2401.08735	A Framework for Scalable Ambient Air Pollution Concentration Estimation	https://arxiv.org/abs/2401.08735	cc-by-4.0	file: 2401.08735.md
+2401.08915	How do transportation professionals perceive the impacts of AI applications in transportation? A latent class cluster analysis	https://arxiv.org/abs/2401.08915	cc-by-4.0	file: 2401.08915.md
+2401.09144	Monitoring Machine Learning Forecasts for Platform Data Streams	https://arxiv.org/abs/2401.09144	cc-by-4.0	file: 2401.09144.md
+2401.09602	Evaluating tree-based imputation methods as an alternative to MICE PMM for drawing inference in empirical studies	https://arxiv.org/abs/2401.09602	cc-by-4.0	file: 2401.09602.md
+2401.09660	Data-Driven Assessment of the County-Level Breast Cancer Incidence in the United States: Impacts of Modifiable and Non-Modifiable Factors	https://arxiv.org/abs/2401.09660	cc-by-4.0	file: 2401.09660.md
+2401.10558	ICBeLLM: High Quality International Events Data with Open Source Large Language Models on Consumer Hardware	https://arxiv.org/abs/2401.10558	cc-by-4.0	file: 2401.10558.md
+2401.10605	The Unconditional Performance of Control Charts for Zero-Inflated Processes with Estimated Parameters	https://arxiv.org/abs/2401.10605	cc-by-4.0	file: 2401.10605.md
+2401.11332	Mortality Modelling using Generalized Estimating Equations	https://arxiv.org/abs/2401.11332	cc-by-4.0	file: 2401.11332.md
+2401.11837	The NOSTRA model: coherent estimation of infection sources in the case of possible nosocomial transmission	https://arxiv.org/abs/2401.11837	cc-by-4.0	file: 2401.11837.md
+2401.12195	Using spatial extreme-value theory with machine learning to model and understand spatially compounding weather extremes	https://arxiv.org/abs/2401.12195	cc-by-4.0	file: 2401.12195.md
+2401.13572	Rare event probability estimation for groundwater inverse problems with a two-stage Sequential Monte Carlo approach	https://arxiv.org/abs/2401.13572	cc-by-4.0	file: 2401.13572.md
+2401.13615	The assessment of replicability using the sum of p-values	https://arxiv.org/abs/2401.13615	cc-by-4.0	file: 2401.13615.md
+2401.13760	Early Detection of Treatments Side Effect: A Sequential Approach	https://arxiv.org/abs/2401.13760	cc-by-4.0	file: 2401.13760.md
+2401.13820	A Bayesian hierarchical mixture cure modelling framework to utilize multiple survival datasets for long-term survivorship estimates: A case study from previously untreated metastatic melanoma	https://arxiv.org/abs/2401.13820	cc-by-4.0	file: 2401.13820.md
+2401.14161	Adapting tree-based multiple imputation methods for multi-level data? A simulation study	https://arxiv.org/abs/2401.14161	cc-by-4.0	file: 2401.14161.md
+2401.14657	Validating Climate Models with Spherical Convolutional Wasserstein Distance	https://arxiv.org/abs/2401.14657	cc-by-4.0	file: 2401.14657.md
+2401.15257	An Overview of Modern Machine Learning Methods for Effect Measure Modification Analyses in High-Dimensional Settings	https://arxiv.org/abs/2401.15257	cc-by-4.0	file: 2401.15257.md
+2401.16392	A comprehensive survey of the home advantage in American football	https://arxiv.org/abs/2401.16392	cc-by-4.0	file: 2401.16392.md
+2401.17164	An analytic approach for understanding mechanisms driving breakthrough infections	https://arxiv.org/abs/2401.17164	cc-by-4.0	file: 2401.17164.md
+2402.00170	An Evaluation of Calibrated and Uncalibrated High-Resolution RGB Data in Time Series Analysis for Coal Spoil Characterisation: A Comparative Study	https://arxiv.org/abs/2402.00170	cc-by-4.0	file: 2402.00170.md
+2402.00555	Time Series based Ensemble Model Output Statistics for Temperature Forecasts Postprocessing	https://arxiv.org/abs/2402.00555	cc-by-4.0	file: 2402.00555.md
+2402.01083	Estimating individual contributions to team success in women's college volleyball	https://arxiv.org/abs/2402.01083	cc-by-4.0	file: 2402.01083.md
+2402.01946	Yield forecasting based on short time series with high spatial resolution data	https://arxiv.org/abs/2402.01946	cc-by-4.0	file: 2402.01946.md
+2402.02898	Bayesian Federated Inference for regression models based on non-shared multicenter data sets from heterogeneous populations	https://arxiv.org/abs/2402.02898	cc-by-4.0	file: 2402.02898.md
+2402.02909	Digital Twin for Grey Box modeling of Multistory residential building thermal dynamics	https://arxiv.org/abs/2402.02909	cc-by-4.0	file: 2402.02909.md
+2402.03263	Small area estimation of forest biomass via a two-stage model for continuous zero-inflated data	https://arxiv.org/abs/2402.03263	cc-by-4.0	file: 2402.03263.md
+2402.06066	Functional ANOVA approaches for detecting changes in air pollution during the COVID-19 pandemic	https://arxiv.org/abs/2402.06066	cc-by-4.0	file: 2402.06066.md
+2402.06138	Mortality Prediction using Survival Energy Models with Functional Data Analysis	https://arxiv.org/abs/2402.06138	cc-by-4.0	file: 2402.06138.md
+2402.07559	Expectile regression averaging method for probabilistic forecasting of electricity prices	https://arxiv.org/abs/2402.07559	cc-by-4.0	file: 2402.07559.md
+2402.07676	Statistical modelling and Bayesian inversion for a Compton imaging system: application to radioactive source localisation	https://arxiv.org/abs/2402.07676	cc-by-4.0	file: 2402.07676.md
+2402.08686	On the Impact of Biological Risk in Aquaculture Valuation and Decision Making	https://arxiv.org/abs/2402.08686	cc-by-4.0	file: 2402.08686.md
+2402.08687	Fuzzy clustering of circular time series based on a new dependence measure with applications to wind data	https://arxiv.org/abs/2402.08687	cc-by-4.0	file: 2402.08687.md
+2402.10522	tsdataleaks: An R Package to Detect Potential Data Leaks in Forecasting Competitions	https://arxiv.org/abs/2402.10522	cc-by-4.0	file: 2402.10522.md
+2402.12384	Comparing MCMC algorithms in Stochastic Volatility Models using Simulation Based Calibration	https://arxiv.org/abs/2402.12384	cc-by-4.0	file: 2402.12384.md
+2402.12392	A Regression Mixture Model to understand the effect of the Covid-19 pandemic on Public Transport Ridership	https://arxiv.org/abs/2402.12392	cc-by-4.0	file: 2402.12392.md
+2402.12400	Estimating the age-conditioned average treatment effects curves: An application for assessing load-management strategies in the NBA	https://arxiv.org/abs/2402.12400	cc-by-4.0	file: 2402.12400.md
+2402.13100	An Introduction to Causal Inference Methods with Multi-omics Data	https://arxiv.org/abs/2402.13100	cc-by-4.0	file: 2402.13100.md
+2402.13509	Prediction of the Economic Behavior of Fishery Biotechnology Companies Based on Machine Learning-Based Deep Metacellular Automata	https://arxiv.org/abs/2402.13509	cc-by-4.0	file: 2402.13509.md
+2402.14416	Algorithm-agnostic significance testing in supervised learning with multimodal data	https://arxiv.org/abs/2402.14416	cc-by-4.0	file: 2402.14416.md
+2402.14624	A bivariate spatial extreme mixture model for unreplicated heavy metal soil contamination	https://arxiv.org/abs/2402.14624	cc-by-4.0	file: 2402.14624.md
+2402.15217	How to identify earth pressures on in-service tunnel linings: Insights from Bayesian inversion to address non-uniqueness	https://arxiv.org/abs/2402.15217	cc-by-4.0	file: 2402.15217.md
+2402.15433	Mutually Exciting Point Processes for Crowdfunding Platform Dynamics	https://arxiv.org/abs/2402.15433	cc-by-4.0	file: 2402.15433.md
+2402.15619	Towards Improved Uncertainty Quantification of Stochastic Epidemic Models Using Sequential Monte Carlo	https://arxiv.org/abs/2402.15619	cc-by-4.0	file: 2402.15619.md
+2402.17692	Survival analysis for AdVerse events with VarYing follow-up times (SAVVY): summary of findings and a roadmap for the future of safety analyses in clinical trials	https://arxiv.org/abs/2402.17692	cc-by-4.0	file: 2402.17692.md
+2402.19162	A Bayesian approach to uncover local and temporal determinants of heterogeneity in repeated cross-sectional health surveys	https://arxiv.org/abs/2402.19162	cc-by-4.0	file: 2402.19162.md
+2403.00142	A Fractional Model for Earthquakes	https://arxiv.org/abs/2403.00142	cc-by-4.0	file: 2403.00142.md
+2403.00161	Thematic agreement assessment of gridded, multi-modal geospatial datasets of different semantics and spatial granularities	https://arxiv.org/abs/2403.00161	cc-by-4.0	file: 2403.00161.md
+2403.00319	Creating area level indices of behaviours impacting cancer in Australia with a Bayesian generalised shared component model	https://arxiv.org/abs/2403.00319	cc-by-4.0	file: 2403.00319.md
+2403.00472	Frailty or Frailties: Exploring Frailty Index Subdimensions in the English Longitudinal Study of Ageing	https://arxiv.org/abs/2403.00472	cc-by-4.0	file: 2403.00472.md
+2403.00922	Fast variable selection for distributional regression with application to continuous glucose monitoring data	https://arxiv.org/abs/2403.00922	cc-by-4.0	file: 2403.00922.md
+2403.02024	On decision-theoretic model assessment for structural deterioration monitoring	https://arxiv.org/abs/2403.02024	cc-by-4.0	file: 2403.02024.md
+2403.03656	A practical and efficient approach for Bayesian reservoir inversion: Insights from the Alvheim field data	https://arxiv.org/abs/2403.03656	cc-by-4.0	file: 2403.03656.md
+2403.03944	MR.RGM: An R Package for Fitting Bayesian Multivariate Bidirectional Mendelian Randomization Networks	https://arxiv.org/abs/2403.03944	cc-by-4.0	file: 2403.03944.md
+2403.04231	Identification of socioeconomic factors influencing global food price security using machine learning	https://arxiv.org/abs/2403.04231	cc-by-4.0	file: 2403.04231.md
+2403.04536	A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems	https://arxiv.org/abs/2403.04536	cc-by-4.0	file: 2403.04536.md
+2403.05554	Studying a Surgery Service Occupation through a Queues Model	https://arxiv.org/abs/2403.05554	cc-by-4.0	file: 2403.05554.md
+2403.05566	Bringing Age Back In: Accounting for Population Age Distribution in Forecasting Migration	https://arxiv.org/abs/2403.05566	cc-by-4.0	file: 2403.05566.md
+2403.06343	Seasonal and Periodic Patterns in US COVID-19 Mortality using the Variable Bandpass Periodic Block Bootstrap	https://arxiv.org/abs/2403.06343	cc-by-4.0	file: 2403.06343.md
+2403.07126	Heterogeneous Image-based Classification Using Distributional Data Analysis	https://arxiv.org/abs/2403.07126	cc-by-4.0	file: 2403.07126.md
+2403.07998	Pairs Trading Using a Novel Graphical Matching Approach	https://arxiv.org/abs/2403.07998	cc-by-4.0	file: 2403.07998.md
+2403.08646	Covariance Fitting Interferometric Phase Linking: Modular Framework and Optimization Algorithms	https://arxiv.org/abs/2403.08646	cc-by-4.0	file: 2403.08646.md
+2403.09014	Urban mapping in Dar es Salaam using AJIVE	https://arxiv.org/abs/2403.09014	cc-by-4.0	file: 2403.09014.md
+2403.09791	Surgery duration prediction using multi-task feature selection	https://arxiv.org/abs/2403.09791	cc-by-4.0	file: 2403.09791.md
+2403.10302	Probabilistic Models of Profiles for Voting by Evaluation	https://arxiv.org/abs/2403.10302	cc-by-4.0	file: 2403.10302.md
+2403.10791	Bayesian Design for Sampling Anomalous Spatio-Temporal Data	https://arxiv.org/abs/2403.10791	cc-by-4.0	file: 2403.10791.md
+2403.12288	Bayesian analysis of verbal autopsy data using factor models with age- and sex-dependent associations between symptoms	https://arxiv.org/abs/2403.12288	cc-by-4.0	file: 2403.12288.md
+2403.13488	The DeepJoint algorithm: An innovative approach for studying the longitudinal evolution of quantitative mammographic density and its association with screen-detected breast cancer risk	https://arxiv.org/abs/2403.13488	cc-by-4.0	file: 2403.13488.md
+2403.14769	Fractional Tackles: Leveraging Player Tracking Data for Within-Play Tackling Evaluation in American Football	https://arxiv.org/abs/2403.14769	cc-by-4.0	file: 2403.14769.md
+2403.14869	Rejoinder to "Perspectives on `harm' in personalized medicine -- an alternative perspective"	https://arxiv.org/abs/2403.14869	cc-by-4.0	file: 2403.14869.md
+2403.15291	Wastewater-based Epidemiology for COVID-19 Surveillance and Beyond: A Survey	https://arxiv.org/abs/2403.15291	cc-by-4.0	file: 2403.15291.md
+2403.17820	Towards Multilevel Modelling of Train Passing Events on the Staffordshire Bridge	https://arxiv.org/abs/2403.17820	cc-by-4.0	file: 2403.17820.md
+2403.18875	Estimating parameters of continuous-time multi-chain hidden Markov models for infectious diseases	https://arxiv.org/abs/2403.18875	cc-by-4.0	file: 2403.18875.md
+2404.01478	A Multidimensional Fractional Hawkes Process for Multiple Earthquake Mainshock Aftershock Sequences	https://arxiv.org/abs/2404.01478	cc-by-4.0	file: 2404.01478.md
+2404.02120	DEMO: Dose Exploration, Monitoring, and Optimization Using a Biological Mediator for Clinical Outcomes	https://arxiv.org/abs/2404.02120	cc-by-4.0	file: 2404.02120.md
+2404.02691	Elementary methods provide more replicable results in microbial differential abundance analysis	https://arxiv.org/abs/2404.02691	cc-by-4.0	file: 2404.02691.md
+2404.03786	Non-Parametric Estimation of Multiple Periodic Components in Turkey's Electricity Consumption	https://arxiv.org/abs/2404.03786	cc-by-4.0	file: 2404.03786.md
+2404.04417	Evaluating COVID-19 Surveillance Testing Strategies at Colorado School of Mines: A Stochastic Modeling Approach	https://arxiv.org/abs/2404.04417	cc-by-4.0	file: 2404.04417.md
+2404.04455	Tomographic reconstruction of a disease transmission landscape via GPS recorded random paths	https://arxiv.org/abs/2404.04455	cc-by-4.0	file: 2404.04455.md
+2404.04774	Application of the Modular Bayesian Approach for Inverse Uncertainty Quantification in Nuclear Thermal-Hydraulics Systems	https://arxiv.org/abs/2404.04774	cc-by-4.0	file: 2404.04774.md
+2404.04964	The zero degree of freedom non-central chi squared distribution for ensemble postprocessing	https://arxiv.org/abs/2404.04964	cc-by-4.0	file: 2404.04964.md
+2404.05282	Prediction intervals for overdispersed Poisson data and their application in medical and pre-clinical quality control	https://arxiv.org/abs/2404.05282	cc-by-4.0	file: 2404.05282.md
+2404.05566	Hausdorff Distance-Based Record Linkage for Improved Matching of Households and Individuals in Different Databases	https://arxiv.org/abs/2404.05566	cc-by-4.0	file: 2404.05566.md
+2404.06338	Statistical Estimation of Mean Lorentzian Line Width in Spectra by Gaussian Processes	https://arxiv.org/abs/2404.06338	cc-by-4.0	file: 2404.06338.md
+2404.06587	Bunting and the ghost runner: a causal inference approach	https://arxiv.org/abs/2404.06587	cc-by-4.0	file: 2404.06587.md
+2404.06616	Binary Trees and Taxicab Correspondence Analysis of Extremely Sparse Binary Textual Data: A Case Study	https://arxiv.org/abs/2404.06616	cc-by-4.0	file: 2404.06616.md
+2404.08336	Estimating breakpoints between climate states in the Cenozoic Era	https://arxiv.org/abs/2404.08336	cc-by-4.0	file: 2404.08336.md
+2404.08533	A Data Fusion Model for Meteorological Data using the INLA-SPDE method	https://arxiv.org/abs/2404.08533	cc-by-4.0	file: 2404.08533.md
+2404.08738	Seasonal and Periodic Patterns of PM2.5 in Manhattan using the Variable Bandpass Periodic Block Bootstrap	https://arxiv.org/abs/2404.08738	cc-by-4.0	file: 2404.08738.md
+2404.08927	PDXpower: A Power Analysis Tool for Experimental Design in Pre-clinical Xenograft Studies for Uncensored and Censored Outcomes	https://arxiv.org/abs/2404.08927	cc-by-4.0	file: 2404.08927.md
+2404.10530	JCGM 101-compliant uncertainty evaluation using virtual experiments	https://arxiv.org/abs/2404.10530	cc-by-4.0	file: 2404.10530.md
+2404.11006	Periodicity in New York State COVID-19 Hospitalizations Leveraged from the Variable Bandpass Periodic Block Bootstrap	https://arxiv.org/abs/2404.11006	cc-by-4.0	file: 2404.11006.md
+2404.11406	Pharmacokinetic Measurements in Dose Finding Model Guided by Escalation with Overdose Control	https://arxiv.org/abs/2404.11406	cc-by-4.0	file: 2404.11406.md
+2404.11506	Statistical methods to estimate the impact of gun policy on gun violence	https://arxiv.org/abs/2404.11506	cc-by-4.0	file: 2404.11506.md
+2404.11552	Simultaneous Estimation of Piecewise Constant Coefficients in Elliptic PDEs via Bayesian Level-Set Methods	https://arxiv.org/abs/2404.11552	cc-by-4.0	file: 2404.11552.md
+2404.11802	Associations between pain-management treatments and opioid use disorder risk among Medicaid patients	https://arxiv.org/abs/2404.11802	cc-by-4.0	file: 2404.11802.md
+2404.12553	Assessing the Longitudinal Impact of Environmental Chemical Mixtures on Children's Neurodevelopment: A Bayesian Approach	https://arxiv.org/abs/2404.12553	cc-by-4.0	file: 2404.12553.md
+2404.12657	Proposer selection in EIP-7251	https://arxiv.org/abs/2404.12657	cc-by-4.0	file: 2404.12657.md
+2404.15227	tsbootstrap: Enhancing Time Series Analysis with Advanced Bootstrapping Techniques	https://arxiv.org/abs/2404.15227	cc-by-4.0	file: 2404.15227.md
+2404.16023	Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression	https://arxiv.org/abs/2404.16023	cc-by-4.0	file: 2404.16023.md
+2404.16590	SB-ETAS: using simulation based inference for scalable, likelihood-free inference for the ETAS model of earthquake occurrences	https://arxiv.org/abs/2404.16590	cc-by-4.0	file: 2404.16590.md
+2404.18259	Singular-value statistics of directed random graphs	https://arxiv.org/abs/2404.18259	cc-by-4.0	file: 2404.18259.md
+2404.18493	An statistical analysis of COVID-19 intensive care unit bed occupancy data	https://arxiv.org/abs/2404.18493	cc-by-4.0	file: 2404.18493.md
+2404.19495	Percentage Coefficient (bp) -- Effect Size Analysis (Theory Paper 1)	https://arxiv.org/abs/2404.19495	cc-by-4.0	file: 2404.19495.md
+2405.01342	Data-Driven Strategies for Detecting and Sampling Misrepresented Subgroups	https://arxiv.org/abs/2405.01342	cc-by-4.0	file: 2405.01342.md
+2405.01450	A mixed effects cosinor modelling framework for circadian gene expression	https://arxiv.org/abs/2405.01450	cc-by-4.0	file: 2405.01450.md
+2405.01746	Bayesian Learning of Clinically Meaningful Sepsis Phenotypes in Northern Tanzania	https://arxiv.org/abs/2405.01746	cc-by-4.0	file: 2405.01746.md
+2405.01789	Quantifying the Causal Effect of Financial Literacy Courses on Financial Health	https://arxiv.org/abs/2405.01789	cc-by-4.0	file: 2405.01789.md
+2405.01986	A comparison of regression models for static and dynamic prediction of a prognostic outcome during admission in electronic health care records	https://arxiv.org/abs/2405.01986	cc-by-4.0	file: 2405.01986.md
+2405.02319	Bayesian Inference for Estimating Heat Sources through Temperature Assimilation	https://arxiv.org/abs/2405.02319	cc-by-4.0	file: 2405.02319.md
+2405.03538	Adolescent sports participation and health in early adulthood: An observational study	https://arxiv.org/abs/2405.03538	cc-by-4.0	file: 2405.03538.md
+2405.03579	Some Statistical and Data Challenges When Building Early-Stage Digital Experimentation and Measurement Capabilities	https://arxiv.org/abs/2405.03579	cc-by-4.0	file: 2405.03579.md
+2405.03814	Stochastic behavior of an n-node blockchain under cyber attacks from multiple hackers with random re-setting times	https://arxiv.org/abs/2405.03814	cc-by-4.0	file: 2405.03814.md
+2405.04507	New allometric models for the USA create a step-change in forest carbon estimation, modeling, and mapping	https://arxiv.org/abs/2405.04507	cc-by-4.0	file: 2405.04507.md
+2405.05643	Cancer mortality projection: disparities, COVID-19, and late diagnosis impact	https://arxiv.org/abs/2405.05643	cc-by-4.0	file: 2405.05643.md
+2405.06549	Sampling the Swadesh List to Identify Similar Languages with Tree Spaces	https://arxiv.org/abs/2405.06549	cc-by-4.0	file: 2405.06549.md
+2405.07879	On the Relation Between Autoencoders and Non-negative Matrix Factorization, and Their Application for Mutational Signature Extraction	https://arxiv.org/abs/2405.07879	cc-by-4.0	file: 2405.07879.md
+2405.08387	Quest for an efficient mathematical and computational method to explore optimal extreme weather modification	https://arxiv.org/abs/2405.08387	cc-by-4.0	file: 2405.08387.md
+2405.08574	Predicting Short Response Ratings with Non-Content Related Features: A Hierarchical Modeling Approach	https://arxiv.org/abs/2405.08574	cc-by-4.0	file: 2405.08574.md
+2405.09865	Assessing course difficulty and the effect of weather in amateur cross country running races	https://arxiv.org/abs/2405.09865	cc-by-4.0	file: 2405.09865.md
+2405.10247	Alternative ranking measures to predict international football results	https://arxiv.org/abs/2405.10247	cc-by-4.0	file: 2405.10247.md
+2405.11213	Real Time Monitoring and Forecasting of COVID 19 Cases using an Adjusted Holt based Hybrid Model embedded with Wavelet based ANN	https://arxiv.org/abs/2405.11213	cc-by-4.0	file: 2405.11213.md
+2405.12325	A canonical polyadic tensor basis for fast Bayesian estimation of multi-subject fMRI activation patterns	https://arxiv.org/abs/2405.12325	cc-by-4.0	file: 2405.12325.md
+2405.12588	An analysis of factors impacting team strengths in the Australian Football League using time-variant Bradley-Terry models	https://arxiv.org/abs/2405.12588	cc-by-4.0	file: 2405.12588.md
+2405.13399	Scalable Bayesian Inference for Bradley--Terry Models with Ties: An Application to Honour Based Abuse	https://arxiv.org/abs/2405.13399	cc-by-4.0	file: 2405.13399.md
+2405.14789	A Bayesian Approach to Estimate Causal Peer Influence Accounting for Latent Network Homophily	https://arxiv.org/abs/2405.14789	cc-by-4.0	file: 2405.14789.md
+2405.14891	Auditing the Fairness of the US COVID-19 Forecast Hub's Case Prediction Models	https://arxiv.org/abs/2405.14891	cc-by-4.0	file: 2405.14891.md
+2405.15003	A Bayesian Approach to GRAPPA Parallel FMRI Image Reconstruction Increases SNR and Power of Task Detection	https://arxiv.org/abs/2405.15003	cc-by-4.0	file: 2405.15003.md
+2405.15835	Analyzing the Impact of Climate Change With Major Emphasis on Pollution: A Comparative Study of ML and Statistical Models in Time Series Data	https://arxiv.org/abs/2405.15835	cc-by-4.0	file: 2405.15835.md
+2405.16385	Combining straight-line and map-based distances to investigate the connection between proximity to healthy foods and disease	https://arxiv.org/abs/2405.16385	cc-by-4.0	file: 2405.16385.md
+2405.18271	Unraveling Factors Influencing Shooting Incidents: Preliminary Analysis and Insights	https://arxiv.org/abs/2405.18271	cc-by-4.0	file: 2405.18271.md
+2405.18279	Identifiability, Observability, Uncertainty and Bayesian System Identification of Epidemiological Models	https://arxiv.org/abs/2405.18279	cc-by-4.0	file: 2405.18279.md
+2405.20191	Multidimensional spatiotemporal clustering -- An application to environmental sustainability scores in Europe	https://arxiv.org/abs/2405.20191	cc-by-4.0	file: 2405.20191.md
+2405.20352	Adapting Quantile Mapping to Bias Correct Solar Radiation Data	https://arxiv.org/abs/2405.20352	cc-by-4.0	file: 2405.20352.md
+2405.20418	A Bayesian joint model of multiple nonlinear longitudinal and competing risks outcomes for dynamic prediction in multiple myeloma: joint estimation and corrected two-stage approaches	https://arxiv.org/abs/2405.20418	cc-by-4.0	file: 2405.20418.md
+2405.21037	Sparse-Group Boosting with Balanced Selection Frequencies: A Simulation-Based Approach and R Implementation	https://arxiv.org/abs/2405.21037	cc-by-4.0	file: 2405.21037.md
+2406.00527	Estimating the Number of Street Vendors in New York City: Ratio Estimation with Point Process Data	https://arxiv.org/abs/2406.00527	cc-by-4.0	file: 2406.00527.md
+2406.01818	Long-term foehn reconstruction combining unsupervised and supervised learning	https://arxiv.org/abs/2406.01818	cc-by-4.0	file: 2406.01818.md
+2406.01982	Variable importance measure for spatial machine learning models with application to air pollution exposure prediction	https://arxiv.org/abs/2406.01982	cc-by-4.0	file: 2406.01982.md
+2406.02743	Democratizing Propensity Score Matching Using Web Application	https://arxiv.org/abs/2406.02743	cc-by-4.0	file: 2406.02743.md
+2406.04095	A likelihood-based sensitivity analysis for addressing publication bias in meta-analysis of diagnostic studies using exact likelihood	https://arxiv.org/abs/2406.04095	cc-by-4.0	file: 2406.04095.md
+2406.05262	A Three-groups Non-local Model for Combining Heterogeneous Data Sources to Identify Genes Associated with Parkinson's Disease	https://arxiv.org/abs/2406.05262	cc-by-4.0	file: 2406.05262.md
+2406.06920	Where to place a mosquito trap for West Nile Virus surveillance?	https://arxiv.org/abs/2406.06920	cc-by-4.0	file: 2406.06920.md
+2406.07888	Classification Modeling with RNN-Based, Random Forest, and XGBoost for Imbalanced Data: A Case of Early Crash Detection in ASEAN-5 Stock Markets	https://arxiv.org/abs/2406.07888	cc-by-4.0	file: 2406.07888.md
+2406.08030	Fault detection in propulsion motors in the presence of concept drift	https://arxiv.org/abs/2406.08030	cc-by-4.0	file: 2406.08030.md
+2406.09895	Lasso Multinomial Performance Indicators for in-play Basketball Data	https://arxiv.org/abs/2406.09895	cc-by-4.0	file: 2406.09895.md
+2406.10611	Information-theoretic evaluation of covariate distributions models	https://arxiv.org/abs/2406.10611	cc-by-4.0	file: 2406.10611.md
+2406.11652	Statistical Evolution of ODI Cricket: Analyzing Performance Trends and Effect Sizes	https://arxiv.org/abs/2406.11652	cc-by-4.0	file: 2406.11652.md
+2406.12810	Detecting Outbreaks Using a Latent Field: Part I -- Spatial Modeling	https://arxiv.org/abs/2406.12810	cc-by-4.0	file: 2406.12810.md
+2406.13814	Evaluation of Missing Data Analytical Techniques in Longitudinal Research: Traditional and Machine Learning Approaches	https://arxiv.org/abs/2406.13814	cc-by-4.0	file: 2406.13814.md
+2406.14145	Temperature in the Iberian Peninsula: Trend, seasonality, and heterogeneity	https://arxiv.org/abs/2406.14145	cc-by-4.0	file: 2406.14145.md
+2406.15195	Multiscale modelling of animal movement with persistent dynamics	https://arxiv.org/abs/2406.15195	cc-by-4.0	file: 2406.15195.md
+2406.16721	Spatially Structured Regression for Non-conformable Spaces: Integrating Pathology Imaging and Genomics Data in Cancer	https://arxiv.org/abs/2406.16721	cc-by-4.0	file: 2406.16721.md
+2406.16773	Valuation methods for professional sports clubs: A historical review, a model development, and the application to Japanese football clubs	https://arxiv.org/abs/2406.16773	cc-by-4.0	file: 2406.16773.md
+2406.16826	Practical privacy metrics for synthetic data	https://arxiv.org/abs/2406.16826	cc-by-4.0	file: 2406.16826.md
+2406.17220	NFL Ghosts: A framework for evaluating defender positioning with conditional density estimation	https://arxiv.org/abs/2406.17220	cc-by-4.0	file: 2406.17220.md
+2406.17500	Using iterated local alignment to aggregate trajectory data into a traffic flow map	https://arxiv.org/abs/2406.17500	cc-by-4.0	file: 2406.17500.md
+2406.18601	Elementary econometric and strategic analysis of curling matches	https://arxiv.org/abs/2406.18601	cc-by-4.0	file: 2406.18601.md
+2406.18602	Multi-level Phenotypic Models of Cardiovascular Disease and Obstructive Sleep Apnea Comorbidities: A Longitudinal Wisconsin Sleep Cohort Study	https://arxiv.org/abs/2406.18602	cc-by-4.0	file: 2406.18602.md
+2406.18606	Bayesian Inference for Stochastic Predictions of Non-Gaussian Systems with Applications in Climate Change	https://arxiv.org/abs/2406.18606	cc-by-4.0	file: 2406.18606.md
+2406.19591	Mathematical modelling and uncertainty quantification for analysis of biphasic coral reef recovery patterns	https://arxiv.org/abs/2406.19591	cc-by-4.0	file: 2406.19591.md
+2406.19835	Surrogate model for Bayesian optimal experimental design in chromatography	https://arxiv.org/abs/2406.19835	cc-by-4.0	file: 2406.19835.md
+2407.01547	Forecasting Mortality Rates: Unveiling Patterns with a PCA-GEE Approach	https://arxiv.org/abs/2407.01547	cc-by-4.0	file: 2407.01547.md
+2407.01949	Mass-Balance MRV for Carbon Dioxide Removal by Enhanced Rock Weathering: Methods, Simulation, and Inference	https://arxiv.org/abs/2407.01949	cc-by-4.0	file: 2407.01949.md
+2407.04351	A Statistical Reduced Complexity Climate Model for Probabilistic Analyses and Projections	https://arxiv.org/abs/2407.04351	cc-by-4.0	file: 2407.04351.md
+2407.04465	A Compounded Burr Probability Distribution for Fitting Heavy-Tailed Data with Applications to Biological Networks	https://arxiv.org/abs/2407.04465	cc-by-4.0	file: 2407.04465.md
+2407.04655	DCZNMaker: A Web-based Application for Multi-Attribute Utilities Analysis	https://arxiv.org/abs/2407.04655	cc-by-4.0	file: 2407.04655.md
+2407.05760	Dirichlet process mixture model based on topologically augmented signal representation for clustering infant vocalizations	https://arxiv.org/abs/2407.05760	cc-by-4.0	file: 2407.05760.md
+2407.05806	Normative brain mapping of 3-dimensional morphometry imaging data using skewed functional data analysis	https://arxiv.org/abs/2407.05806	cc-by-4.0	file: 2407.05806.md
+2407.07120	An Analysis of Pacing Profiles in Sprint Kayak Racing Using Functional Principal Components and Hidden Markov Models	https://arxiv.org/abs/2407.07120	cc-by-4.0	file: 2407.07120.md
+2407.07430	Spectral Bridges	https://arxiv.org/abs/2407.07430	cc-by-4.0	file: 2407.07430.md
+2407.07714	Relative Sensitivities and Correlation of Factors Introducing Uncertainty in Radiotherapy Dosimetry Audits	https://arxiv.org/abs/2407.07714	cc-by-4.0	file: 2407.07714.md
+2407.08259	Wind Power Assessment based on Super-Resolution and Downscaling -- A Comparison of Deep Learning Methods	https://arxiv.org/abs/2407.08259	cc-by-4.0	file: 2407.08259.md
+2407.10175	Low Volatility Stock Portfolio Through High Dimensional Bayesian Cointegration	https://arxiv.org/abs/2407.10175	cc-by-4.0	file: 2407.10175.md
+2407.10869	Hidden Markov models with an unknown number of states and a repulsive prior on the state parameters	https://arxiv.org/abs/2407.10869	cc-by-4.0	file: 2407.10869.md
+2407.11045	The 2023/24 VIEWS Prediction Challenge: Predicting the Number of Fatalities in Armed Conflict, with Uncertainty	https://arxiv.org/abs/2407.11045	cc-by-4.0	file: 2407.11045.md
+2407.11233	Detecting Outbreaks Using a Latent Field: Part II -- Scalable Estimation	https://arxiv.org/abs/2407.11233	cc-by-4.0	file: 2407.11233.md
+2407.11597	Bayesian Emulation of Geotechnical Deterioration Curves Using Quadratic and B-Spline Hierarchical Models	https://arxiv.org/abs/2407.11597	cc-by-4.0	file: 2407.11597.md
+2407.12607	Time-varying Multivariate Statistical Process Control for Solar Photovoltaic Monitoring and Fault Detecting & Diagnosing Systems	https://arxiv.org/abs/2407.12607	cc-by-4.0	file: 2407.12607.md
+2407.13267	A Partially Pooled NSUM Model: Detailed estimation of CSEM trafficking prevalence in Philippine municipalities	https://arxiv.org/abs/2407.13267	cc-by-4.0	file: 2407.13267.md
+2407.13659	Regression coefficient estimation from remote sensing maps	https://arxiv.org/abs/2407.13659	cc-by-4.0	file: 2407.13659.md
+2407.14976	Multiple merger coalescent inference of effective population size	https://arxiv.org/abs/2407.14976	cc-by-4.0	file: 2407.14976.md
+2407.15401	Data Space Inversion for Efficient Predictions and Uncertainty Quantification for Geothermal Models	https://arxiv.org/abs/2407.15401	cc-by-4.0	file: 2407.15401.md
+2407.15905	A divide-and-conquer approach for spatio-temporal analysis of large house price data from Greater London	https://arxiv.org/abs/2407.15905	cc-by-4.0	file: 2407.15905.md
+2407.15987	AI for Handball: predicting and explaining the 2024 Olympic Games tournament with Deep Learning and Large Language Models	https://arxiv.org/abs/2407.15987	cc-by-4.0	file: 2407.15987.md
+2407.17132	Exploring Covid-19 Spatiotemporal Dynamics: Non-Euclidean Spatially Aware Functional Registration	https://arxiv.org/abs/2407.17132	cc-by-4.0	file: 2407.17132.md
+2407.17718	Comparison of global sensitivity analysis methods for a fire spread model with a segmented characteristic	https://arxiv.org/abs/2407.17718	cc-by-4.0	file: 2407.17718.md
+2407.17719	A new moment-independent uncertainty importance measure based on cumulative residual entropy for developing uncertainty reduction strategies	https://arxiv.org/abs/2407.17719	cc-by-4.0	file: 2407.17719.md
+2407.18377	Bayesian Nowcasting Data Breach IBNR Incidents	https://arxiv.org/abs/2407.18377	cc-by-4.0	file: 2407.18377.md
+2407.19321	Analysis of the Impact of Unforced Errors in Tennis	https://arxiv.org/abs/2407.19321	cc-by-4.0	file: 2407.19321.md
+2407.20295	Warped multifidelity Gaussian processes for data fusion of skewed environmental data	https://arxiv.org/abs/2407.20295	cc-by-4.0	file: 2407.20295.md
+2407.21303	Can expected error costs justify testing a hypothesis at multiple alpha levels rather than searching for an elusive optimal alpha?	https://arxiv.org/abs/2407.21303	cc-by-4.0	file: 2407.21303.md
+2408.01888	Journey-Based Transit Equity Analysis: A Case Study in the Greater Boston Area	https://arxiv.org/abs/2408.01888	cc-by-4.0	file: 2408.01888.md
+2408.02099	A statistical procedure to assist dysgraphia detection through dynamic modelling of handwriting	https://arxiv.org/abs/2408.02099	cc-by-4.0	file: 2408.02099.md
+2408.02155	SPINEX-Optimization: Similarity-based Predictions with Explainable Neighbors Exploration for Single, Multiple, and Many Objectives Optimization	https://arxiv.org/abs/2408.02155	cc-by-4.0	file: 2408.02155.md
+2408.02558	Peer-induced Fairness: A Causal Approach for Algorithmic Fairness Auditing	https://arxiv.org/abs/2408.02558	cc-by-4.0	file: 2408.02558.md
+2408.03741	Varying coefficients correlated velocity models in complex landscapes with boundaries applied to narwhal responses to noise exposure	https://arxiv.org/abs/2408.03741	cc-by-4.0	file: 2408.03741.md
+2408.03839	Exploring the Impacts of Air Quality on Travel Behavior and Activity Participation: Evidence from Travel Diary Surveys in Northern Utah	https://arxiv.org/abs/2408.03839	cc-by-4.0	file: 2408.03839.md
+2408.04178	Real-time modelling of the SARS-CoV-2 pandemic in England 2020-2023: a challenging data integration	https://arxiv.org/abs/2408.04178	cc-by-4.0	file: 2408.04178.md
+2408.04441	Causal Inference in Social Platforms Under Approximate Interference Networks	https://arxiv.org/abs/2408.04441	cc-by-4.0	file: 2408.04441.md
+2408.05231	Predictive maintenance solution for industrial systems -- an unsupervised approach based on log periodic power law	https://arxiv.org/abs/2408.05231	cc-by-4.0	file: 2408.05231.md
+2408.06642	Quantifying uncertainty in climate projections with conformal ensembles	https://arxiv.org/abs/2408.06642	cc-by-4.0	file: 2408.06642.md
+2408.07765	Heterogeneous Treatment Effect Estimation under Noncompliance in the Illinois Workplace Wellness Study with Bayesian Tree Ensembles	https://arxiv.org/abs/2408.07765	cc-by-4.0	file: 2408.07765.md
+2408.09060	[Invited Discussion] Randomization Tests to Address Disruptions in Clinical Trials: A Report from the NISS Ingram Olkin Forum Series on Unplanned Clinical Trial Disruptions	https://arxiv.org/abs/2408.09060	cc-by-4.0	file: 2408.09060.md
+2408.09258	Atlanta Gun Violence Modeling via Nonstationary Spatio-temporal Point Processes	https://arxiv.org/abs/2408.09258	cc-by-4.0	file: 2408.09258.md
+2408.09557	Markov modeling for a satellite tag data record of whale diving behavior	https://arxiv.org/abs/2408.09557	cc-by-4.0	file: 2408.09557.md
+2408.10867	Bye-Bye, Bye Advantage: Estimating the competitive impact of rest differential in the National Football League	https://arxiv.org/abs/2408.10867	cc-by-4.0	file: 2408.10867.md
+2408.11167	Multi-time small-area estimation of oil and gas production capacities by Bayesian multilevel modeling	https://arxiv.org/abs/2408.11167	cc-by-4.0	file: 2408.11167.md
+2408.11874	Investigating Mode Effects in Interviewer Variances Using Two Representative Multi-mode Surveys	https://arxiv.org/abs/2408.11874	cc-by-4.0	file: 2408.11874.md
+2408.12521	Disclosure risk assessment with Bayesian non-parametric hierarchical modelling	https://arxiv.org/abs/2408.12521	cc-by-4.0	file: 2408.12521.md
+2408.12618	Refining Genetic Discoveries of Group Knockoffs via A Feature-level Filter	https://arxiv.org/abs/2408.12618	cc-by-4.0	file: 2408.12618.md
+2408.12932	Broad versus narrow research questions in evidence synthesis: a parallel to (and plea for) estimands	https://arxiv.org/abs/2408.12932	cc-by-4.0	file: 2408.12932.md
+2408.12933	When is truncated stop loss optimal?	https://arxiv.org/abs/2408.12933	cc-by-4.0	file: 2408.12933.md
+2408.13022	Estimation of ratios of normalizing constants using stochastic approximation : the SARIS algorithm	https://arxiv.org/abs/2408.13022	cc-by-4.0	file: 2408.13022.md
+2408.13392	A Multivariate Space-Time Dynamic Model for Characterizing the Atmospheric Impacts Following the Mt Pinatubo Eruptio	https://arxiv.org/abs/2408.13392	cc-by-4.0	file: 2408.13392.md
+2408.13430	The ICML 2023 Ranking Experiment: Examining Author Self-Assessment in ML/AI Peer Review	https://arxiv.org/abs/2408.13430	cc-by-4.0	file: 2408.13430.md
+2408.13642	Change Point Detection in Pairwise Comparison Data with Covariates	https://arxiv.org/abs/2408.13642	cc-by-4.0	file: 2408.13642.md
+2408.13872	Estimation of time-varying recovery and death rates from epidemiological data: A new approach	https://arxiv.org/abs/2408.13872	cc-by-4.0	file: 2408.13872.md
+2408.14012	Bayesian Cointegrated Panels in Digital Marketing	https://arxiv.org/abs/2408.14012	cc-by-4.0	file: 2408.14012.md
+2408.14940	Bayesian spatiotemporal modelling of political violence and conflict events using discrete-time Hawkes processes	https://arxiv.org/abs/2408.14940	cc-by-4.0	file: 2408.14940.md
+2408.15387	Semiparametric Modelling of Cancer Mortality Trends in Colombia	https://arxiv.org/abs/2408.15387	cc-by-4.0	file: 2408.15387.md
+2408.15805	Investigating Complex HPV Dynamics Using Emulation and History Matching	https://arxiv.org/abs/2408.15805	cc-by-4.0	file: 2408.15805.md
+2408.16004	Granger causal inference for climate change attribution	https://arxiv.org/abs/2408.16004	cc-by-4.0	file: 2408.16004.md
+2408.16011	Brownian Motion with a Pulse: A Biostatistician's Guide to Diffusions, Bridges, Functional PCA, and First-Passage Models	https://arxiv.org/abs/2408.16011	cc-by-4.0	file: 2408.16011.md
+2408.17227	A Framework for Digital Asset Risks with Insurance Applications	https://arxiv.org/abs/2408.17227	cc-by-4.0	file: 2408.17227.md
+2408.17230	cosimmr: an R package for fast fitting of Stable Isotope Mixing Models with covariates	https://arxiv.org/abs/2408.17230	cc-by-4.0	file: 2408.17230.md
+2408.17239	Modelling multiplex testing for outbreak Control	https://arxiv.org/abs/2408.17239	cc-by-4.0	file: 2408.17239.md
+2409.00232	Distribution-Based Sub-Population Selection (DSPS): A Method for in-Silico Reproduction of Clinical Trials Outcomes	https://arxiv.org/abs/2409.00232	cc-by-4.0	file: 2409.00232.md
+2409.00300	Data is missing again -- Reconstruction of power generation data using $k$-Nearest Neighbors and spectral graph theory	https://arxiv.org/abs/2409.00300	cc-by-4.0	file: 2409.00300.md
+2409.00566	Localizing Single and Multiple Oscillatory Sources: A Frequency Divider Approach	https://arxiv.org/abs/2409.00566	cc-by-4.0	file: 2409.00566.md
+2409.02378	Bayesian Dynamic Generalized Additive Model for Mortality during COVID-19 Pandemic	https://arxiv.org/abs/2409.02378	cc-by-4.0	file: 2409.02378.md
+2409.04257	Privacy risk from synthetic data: practical proposals	https://arxiv.org/abs/2409.04257	cc-by-4.0	file: 2409.04257.md
+2409.04642	Enhancing Electrocardiography Data Classification Confidence: A Robust Gaussian Process Approach (MuyGPs)	https://arxiv.org/abs/2409.04642	cc-by-4.0	file: 2409.04642.md
+2409.04673	A Multi-objective Economic Statistical Design of the CUSUM chart: NSGA II Approach	https://arxiv.org/abs/2409.04673	cc-by-4.0	file: 2409.04673.md
+2409.04716	Privacy enhanced collaborative inference in the Cox proportional hazards model for distributed data	https://arxiv.org/abs/2409.04716	cc-by-4.0	file: 2409.04716.md
+2409.04889	Moving from Machine Learning to Statistics: the case of Expected Points in American football	https://arxiv.org/abs/2409.04889	cc-by-4.0	file: 2409.04889.md
+2409.05036	Estimating velocities of infectious disease spread through spatio-temporal log-Gaussian Cox point processes	https://arxiv.org/abs/2409.05036	cc-by-4.0	file: 2409.05036.md
+2409.05343	Enhancing Empathic Accuracy: Penalized Functional Alignment Method to Correct Temporal Misalignment in Real-time Emotional Perception	https://arxiv.org/abs/2409.05343	cc-by-4.0	file: 2409.05343.md
+2409.06046	Learning about Spatial and Temporal Proximity using Tree-Based Methods	https://arxiv.org/abs/2409.06046	cc-by-4.0	file: 2409.06046.md
+2409.06238	Applications of machine learning to predict seasonal precipitation for East Africa	https://arxiv.org/abs/2409.06238	cc-by-4.0	file: 2409.06238.md
+2409.06399	Robust semi-parametric signal detection in particle physics with classifiers decorrelated via optimal transport	https://arxiv.org/abs/2409.06399	cc-by-4.0	file: 2409.06399.md
+2409.06739	Kramnik vs Nakamura: A Chess Scandal	https://arxiv.org/abs/2409.06739	cc-by-4.0	file: 2409.06739.md
+2409.07667	Unsupervised anomaly detection in spatio-temporal stream network sensor data	https://arxiv.org/abs/2409.07667	cc-by-4.0	file: 2409.07667.md
+2409.08809	Statistical Analysis of Quantitative Cancer Imaging Data	https://arxiv.org/abs/2409.08809	cc-by-4.0	file: 2409.08809.md
+2409.08908	Tracing the impacts of Mount Pinatubo eruption on regional climate using spatially-varying changepoint detection	https://arxiv.org/abs/2409.08908	cc-by-4.0	file: 2409.08908.md
+2409.10017	Spatial occupancy models for data collected on stream networks	https://arxiv.org/abs/2409.10017	cc-by-4.0	file: 2409.10017.md
+2409.10475	Leadership and Engagement Dynamics in Legislative Twitter Networks: Statistical Analysis and Modeling	https://arxiv.org/abs/2409.10475	cc-by-4.0	file: 2409.10475.md
+2409.10882	Spatio-Temporal-Network Point Processes for Modeling Crime Events with Landmarks	https://arxiv.org/abs/2409.10882	cc-by-4.0	file: 2409.10882.md
+2409.11269	Testing for racial bias using inconsistent perceptions of race	https://arxiv.org/abs/2409.11269	cc-by-4.0	file: 2409.11269.md
+2409.11341	Leveraging Connected Vehicle Data for Near-Crash Detection and Analysis in Urban Environments	https://arxiv.org/abs/2409.11341	cc-by-4.0	file: 2409.11341.md
+2409.12358	International Trade Network: Statistical Analysis and Modeling	https://arxiv.org/abs/2409.12358	cc-by-4.0	file: 2409.12358.md
+2409.13760	Mapping climate change awareness through spatial hierarchical clustering	https://arxiv.org/abs/2409.13760	cc-by-4.0	file: 2409.13760.md
+2409.13938	Elastic Shape Analysis of Movement Data	https://arxiv.org/abs/2409.13938	cc-by-4.0	file: 2409.13938.md
+2409.16044	Stable Survival Extrapolation via Transfer Learning	https://arxiv.org/abs/2409.16044	cc-by-4.0	file: 2409.16044.md
+2409.16080	Bayesian competing risks survival modeling for assessing the cause of death of patients with heart failure	https://arxiv.org/abs/2409.16080	cc-by-4.0	file: 2409.16080.md
+2409.16373	Spatial extremal modelling: A case study on the interplay between margins and dependence	https://arxiv.org/abs/2409.16373	cc-by-4.0	file: 2409.16373.md
+2409.16738	A Novel Framework for Analyzing Structural Transformation in Data-Constrained Economies Using Bayesian Modeling and Machine Learning	https://arxiv.org/abs/2409.16738	cc-by-4.0	file: 2409.16738.md
+2409.16843	Optimal starting point for time series forecasting	https://arxiv.org/abs/2409.16843	cc-by-4.0	file: 2409.16843.md
+2409.17057	The Impact of Geopolitical Risks on Bitcoin Volume Growth: Evidence from a Panel Data Analysis	https://arxiv.org/abs/2409.17057	cc-by-4.0	file: 2409.17057.md
+2409.17196	Agent modelling, statistical control, and the strength of middle knowledge	https://arxiv.org/abs/2409.17196	cc-by-4.0	file: 2409.17196.md
+2409.18625	Predicting failure times of coherent systems	https://arxiv.org/abs/2409.18625	cc-by-4.0	file: 2409.18625.md
+2409.18669	A variance-based importance index for systems with dependent components	https://arxiv.org/abs/2409.18669	cc-by-4.0	file: 2409.18669.md
+2409.18684	Preservation of some stochastic orders by distortion functions with application to coherent systems with exchangeable components	https://arxiv.org/abs/2409.18684	cc-by-4.0	file: 2409.18684.md
+2409.18837	Incorporation of NAMs dynamic reservoir model into Cox rate-and-state model for monitoring earthquakes in the Groningen gas field	https://arxiv.org/abs/2409.18837	cc-by-4.0	file: 2409.18837.md
+2409.18856	Data-driven Characterization of Near-Surface Velocity in the San Francisco Bay Area: A Stationary and Spatially Varying Approach	https://arxiv.org/abs/2409.18856	cc-by-4.0	file: 2409.18856.md
+2409.19314	Re-evaluating the impact of reduced malaria prevalence on birthweight in sub-Saharan Africa: A pair-of-pairs study via two-stage bipartite and non-bipartite matching	https://arxiv.org/abs/2409.19314	cc-by-4.0	file: 2409.19314.md
+2409.19522	Examining Exams Using Rasch Models and Assessment of Measurement Invariance	https://arxiv.org/abs/2409.19522	cc-by-4.0	file: 2409.19522.md
+2409.19675	A Comprehensive Guide to Simulation-based Inference in Computational Biology	https://arxiv.org/abs/2409.19675	cc-by-4.0	file: 2409.19675.md
+2409.19717	Covariance Regression for High Dimensional Neural Data via Graph	https://arxiv.org/abs/2409.19717	cc-by-4.0	file: 2409.19717.md
+2410.00903	Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments	https://arxiv.org/abs/2410.00903	cc-by-4.0	file: 2410.00903.md
+2410.00912	Glucodensity Functional Profiles Outperform Traditional Continuous Glucose Monitoring Metrics	https://arxiv.org/abs/2410.00912	cc-by-4.0	file: 2410.00912.md
+2410.01196	Expected Diverse Utility (EDU): Diverse Bayesian Optimization of Expensive Computer Simulators	https://arxiv.org/abs/2410.01196	cc-by-4.0	file: 2410.01196.md
+2410.01478	Clinical trials with interim analyses: Standardizing Terminology to increase clarity	https://arxiv.org/abs/2410.01478	cc-by-4.0	file: 2410.01478.md
+2410.02306	Choosing alpha post hoc: the danger of multiple standard significance thresholds	https://arxiv.org/abs/2410.02306	cc-by-4.0	file: 2410.02306.md
+2410.02880	Bayesian Inference of Multiple Ising Models for Heterogeneous Public Opinion Survey Networks	https://arxiv.org/abs/2410.02880	cc-by-4.0	file: 2410.02880.md
+2410.03346	Implementing Response-Adaptive Randomisation in Stratified Rare-disease Trials: Design Challenges and Practical Solutions	https://arxiv.org/abs/2410.03346	cc-by-4.0	file: 2410.03346.md
+2410.05548	Scalable Inference for Bayesian Multinomial Logistic-Normal Dynamic Linear Models	https://arxiv.org/abs/2410.05548	cc-by-4.0	file: 2410.05548.md
+2410.05843	A time warping model for seasonal data with application to age estimation from narwhal tusks	https://arxiv.org/abs/2410.05843	cc-by-4.0	file: 2410.05843.md
+2410.07215	Analysis and Optimization of Seismic Monitoring Networks with Bayesian Optimal Experiment Design	https://arxiv.org/abs/2410.07215	cc-by-4.0	file: 2410.07215.md
+2410.07236	Chimeric Forecasting: Blending Human Judgment and Computational Methods for Improved, Real-time Forecasts of Influenza Hospitalizations	https://arxiv.org/abs/2410.07236	cc-by-4.0	file: 2410.07236.md
+2410.07970	Mapping Hong Kong's Financial Ecosystem: A Network Analysis of the SFC's Licensed Professionals and Institutions	https://arxiv.org/abs/2410.07970	cc-by-4.0	file: 2410.07970.md
+2410.08132	Dynamic Interconnections between Corruption and Economic Growth	https://arxiv.org/abs/2410.08132	cc-by-4.0	file: 2410.08132.md
+2410.11040	Comparing Step Counting Algorithms for High-Resolution Wrist Accelerometry Data in NHANES 2011-2014	https://arxiv.org/abs/2410.11040	cc-by-4.0	file: 2410.11040.md
+2410.11375	Statistical Analysis of the Impact of FIA Regulations on Safety, Racing Dynamics, and Spectacle in Formula 1	https://arxiv.org/abs/2410.11375	cc-by-4.0	file: 2410.11375.md
+2410.12146	K-Contact Distance for Noisy Nonhomogeneous Spatial Point Data with application to Repeating Fast Radio Burst sources	https://arxiv.org/abs/2410.12146	cc-by-4.0	file: 2410.12146.md
+2410.12450	A geometrical perspective on parametric psychometric models	https://arxiv.org/abs/2410.12450	cc-by-4.0	file: 2410.12450.md
+2410.12936	Development of COVID-19 Booster Vaccine Policy by Microsimulation and Q-learning	https://arxiv.org/abs/2410.12936	cc-by-4.0	file: 2410.12936.md
+2410.15049	Modeling Time-Varying Effects of Mobile Health Interventions Using Longitudinal Functional Data from HeartSteps Micro-Randomized Trial	https://arxiv.org/abs/2410.15049	cc-by-4.0	file: 2410.15049.md
+2410.16187	Interpretable Prediction Rule Ensembles in the Presence of Missing Data	https://arxiv.org/abs/2410.16187	cc-by-4.0	file: 2410.16187.md
+2410.17392	Experimental Designs for Optimizing Last-Mile Delivery	https://arxiv.org/abs/2410.17392	cc-by-4.0	file: 2410.17392.md
+2410.18282	Improving measurement error and representativeness in nonprobability surveys	https://arxiv.org/abs/2410.18282	cc-by-4.0	file: 2410.18282.md
+2410.18945	Mosqlimate: a platform to providing automatable access to data and forecasting models for arbovirus disease	https://arxiv.org/abs/2410.18945	cc-by-4.0	file: 2410.18945.md
+2410.20620	Hazard and Beyond: Exploring Five Distributional Representations of Accelerometry Data for Disability Discrimination in Multiple Sclerosis	https://arxiv.org/abs/2410.20620	cc-by-4.0	file: 2410.20620.md
+2410.21664	Communicating Risk with Possibility, Not Probability	https://arxiv.org/abs/2410.21664	cc-by-4.0	file: 2410.21664.md
+2410.22484	Multicriteria Analysis of Decentralized Wastewater Treatment Technologies for the Philippines	https://arxiv.org/abs/2410.22484	cc-by-4.0	file: 2410.22484.md
+2410.22502	Gender disparities in rehospitalisations after coronary artery bypass grafting: evidence from a sparse functional causal mediation analysis of the MIMIC-IV data	https://arxiv.org/abs/2410.22502	cc-by-4.0	file: 2410.22502.md
+2410.22860	A Bertalanffy-Richards growth model perturbed by a time-dependent pattern, statistical analysis and applications	https://arxiv.org/abs/2410.22860	cc-by-4.0	file: 2410.22860.md
+2410.22892	Evolution of global inequality in well-being: A copula-based approach	https://arxiv.org/abs/2410.22892	cc-by-4.0	file: 2410.22892.md
+2410.23521	Healthy Live Births Should be Considered as Competing Events when Estimating the Total Effect of Prenatal Medication Use on Pregnancy Outcomes	https://arxiv.org/abs/2410.23521	cc-by-4.0	file: 2410.23521.md
+2411.01066	An unified approach to link prediction in collaboration networks	https://arxiv.org/abs/2411.01066	cc-by-4.0	file: 2411.01066.md
+2411.01092	Cost efficiency of fMRI studies using resting-state vs task-based functional connectivity	https://arxiv.org/abs/2411.01092	cc-by-4.0	file: 2411.01092.md
+2411.01100	Transporting causal effects from a randomized trial without "transportability:" a case study of political advertising during U.S. elections	https://arxiv.org/abs/2411.01100	cc-by-4.0	file: 2411.01100.md
+2411.01771	Evaluating Traumatic Brain Injury Outcomes in Road Traffic Crashes	https://arxiv.org/abs/2411.01771	cc-by-4.0	file: 2411.01771.md
+2411.01773	Detection of LUAD-Associated Genes Using Wasserstein Distance in Multi-Omics Feature Selection	https://arxiv.org/abs/2411.01773	cc-by-4.0	file: 2411.01773.md
+2411.02000	Predicting and understanding shooting performance in professional biathlon: A Bayesian approach	https://arxiv.org/abs/2411.02000	cc-by-4.0	file: 2411.02000.md
+2411.02029	GDP nowcasting with large-scale inter-industry payment data in real time -- A network approach	https://arxiv.org/abs/2411.02029	cc-by-4.0	file: 2411.02029.md
+2411.02539	Estimating journey time for two-point vehicle re-identification survey with limited observable scope using 2-dimensional truncated distributions	https://arxiv.org/abs/2411.02539	cc-by-4.0	file: 2411.02539.md
+2411.03774	Towards pandemic preparedness: ability to estimate high-resolution social contact patterns from longitudinal surveys	https://arxiv.org/abs/2411.03774	cc-by-4.0	file: 2411.03774.md
+2411.05014	Fast and interpretable electricity consumption scenario generation for individual consumers	https://arxiv.org/abs/2411.05014	cc-by-4.0	file: 2411.05014.md
+2411.05580	Increasing power and robustness in screening trials by testing stored specimens in the control arm	https://arxiv.org/abs/2411.05580	cc-by-4.0	file: 2411.05580.md
+2411.06192	Variational Bayes Portfolio Construction	https://arxiv.org/abs/2411.06192	cc-by-4.0	file: 2411.06192.md
+2411.06701	The Unreasonable Effectiveness of Monte Carlo Simulations in A/B Testing	https://arxiv.org/abs/2411.06701	cc-by-4.0	file: 2411.06701.md
+2411.07368	Targeting mediating mechanisms of social disparities with an interventional effects framework, applied to the gender pay gap in Western Germany	https://arxiv.org/abs/2411.07368	cc-by-4.0	file: 2411.07368.md
+2411.07401	Review and Validation of Stochastic Ground Motion Models: which one does it better?	https://arxiv.org/abs/2411.07401	cc-by-4.0	file: 2411.07401.md
+2411.07415	Cluster globally, Reduce locally: Scalable efficient dictionary compression for magnetic resonance fingerprinting	https://arxiv.org/abs/2411.07415	cc-by-4.0	file: 2411.07415.md
+2411.07836	Robust estimation of carbon dioxide airborne fraction under measurement errors	https://arxiv.org/abs/2411.07836	cc-by-4.0	file: 2411.07836.md
+2411.08032	R Package moodlequizR: Fully Randomized Moodle Tests	https://arxiv.org/abs/2411.08032	cc-by-4.0	file: 2411.08032.md
+2411.08309	CMiNet: R package for learning the Consensus Microbiome Network	https://arxiv.org/abs/2411.08309	cc-by-4.0	file: 2411.08309.md
+2411.09025	Modeling Joint Health Effects of Environmental Exposure Mixtures with Bayesian Additive Regression Trees	https://arxiv.org/abs/2411.09025	cc-by-4.0	file: 2411.09025.md
+2411.09085	Predictive Modeling of Lower-Level English Club Soccer Using Crowd-Sourced Player Valuations	https://arxiv.org/abs/2411.09085	cc-by-4.0	file: 2411.09085.md
+2411.09353	Monitoring time to event in registry data using CUSUMs based on relative survival models	https://arxiv.org/abs/2411.09353	cc-by-4.0	file: 2411.09353.md
+2411.09800	A Probabilistic Framework for Estimating the Modal Age at Death	https://arxiv.org/abs/2411.09800	cc-by-4.0	file: 2411.09800.md
+2411.09878	Forecasting Net Migration By Age: The Flow-Difference Approach	https://arxiv.org/abs/2411.09878	cc-by-4.0	file: 2411.09878.md
+2411.10400	The Loser's Curse and the Critical Role of the Utility Function	https://arxiv.org/abs/2411.10400	cc-by-4.0	file: 2411.10400.md
+2411.11032	singleRcapture: An R Package for Single-Source Capture-Recapture Models	https://arxiv.org/abs/2411.11032	cc-by-4.0	file: 2411.11032.md
+2411.11126	Identifying good forecasters via adaptive cognitive tests	https://arxiv.org/abs/2411.11126	cc-by-4.0	file: 2411.11126.md
+2411.11461	Does wind affect the orientation of vegetation stripes? A copula-based mixture model for axial and circular data	https://arxiv.org/abs/2411.11461	cc-by-4.0	file: 2411.11461.md
+2411.11630	Climate data selection for multi-decadal wind power forecasts	https://arxiv.org/abs/2411.11630	cc-by-4.0	file: 2411.11630.md
+2411.12016	US COVID-19 school closure was not cost-effective, but other measures were	https://arxiv.org/abs/2411.12016	cc-by-4.0	file: 2411.12016.md
+2411.12193	Hierarchical Probabilistic Conformal Prediction for Distributed Energy Resources Adoption	https://arxiv.org/abs/2411.12193	cc-by-4.0	file: 2411.12193.md
+2411.12258	E-STGCN: Extreme Spatiotemporal Graph Convolutional Networks for Air Quality Forecasting	https://arxiv.org/abs/2411.12258	cc-by-4.0	file: 2411.12258.md
+2411.13203	A computational framework for integrating Predictive processes with evidence Accumulation Models (PAM)	https://arxiv.org/abs/2411.13203	cc-by-4.0	file: 2411.13203.md
+2411.13356	Optimal Designs for Spherical Harmonic Regression	https://arxiv.org/abs/2411.13356	cc-by-4.0	file: 2411.13356.md
+2411.13370	Analysis of Higher Education Dropouts Dynamics through Multilevel Functional Decomposition of Recurrent Events in Counting Processes	https://arxiv.org/abs/2411.13370	cc-by-4.0	file: 2411.13370.md
+2411.13608	Integrating Dynamic Correlation Shifts and Weighted Benchmarking in Extreme Value Analysis	https://arxiv.org/abs/2411.13608	cc-by-4.0	file: 2411.13608.md
+2411.13663	Accounting carbon emissions from electricity generation: a review and comparison of emission factor-based methods	https://arxiv.org/abs/2411.13663	cc-by-4.0	file: 2411.13663.md
+2411.16237	Corrected Support Vector Regression for intraday point forecasting of prices in the continuous power market	https://arxiv.org/abs/2411.16237	cc-by-4.0	file: 2411.16237.md
+2411.17495	A Machine Learning-based Anomaly Detection Framework in Life Insurance Contracts	https://arxiv.org/abs/2411.17495	cc-by-4.0	file: 2411.17495.md
+2411.17880	GeneralizIT: A Python Solution for Generalizability Theory Computations	https://arxiv.org/abs/2411.17880	cc-by-4.0	file: 2411.17880.md
+2411.18799	Density correction for multivariate spatial fields of global climate model output using deep learning	https://arxiv.org/abs/2411.18799	cc-by-4.0	file: 2411.18799.md
+2411.19721	Scaling Methods To Estimate Macroscopic Fundamental Diagrams in Urban Networks with Sparse Sensor Coverage	https://arxiv.org/abs/2411.19721	cc-by-4.0	file: 2411.19721.md
+2412.00753	The ecological forecast limit revisited: Potential, actual and relative system predictability	https://arxiv.org/abs/2412.00753	cc-by-4.0	file: 2412.00753.md
+2412.00823	A Bayesian Model of Underreporting for Sexual Assault on College Campuses	https://arxiv.org/abs/2412.00823	cc-by-4.0	file: 2412.00823.md
+2412.02026	Comparing Clustering Approaches for Smart Meter Time Series: Investigating the Influence of Dataset Properties on Performance	https://arxiv.org/abs/2412.02026	cc-by-4.0	file: 2412.02026.md
+2412.02380	Use of surrogate endpoints in health technology assessment: a review of selected NICE technology appraisals in oncology	https://arxiv.org/abs/2412.02380	cc-by-4.0	file: 2412.02380.md
+2412.02440	Model Determination for High-Dimensional Longitudinal Data with Missing Observations: An Application to Microfinance Data	https://arxiv.org/abs/2412.02440	cc-by-4.0	file: 2412.02440.md
+2412.03528	The R.O.A.D. to clinical trial emulation	https://arxiv.org/abs/2412.03528	cc-by-4.0	file: 2412.03528.md
+2412.05398	The Neglected Error: False Negatives and the Case for Validating Eliminations	https://arxiv.org/abs/2412.05398	cc-by-4.0	file: 2412.05398.md
+2412.05911	Unveiling True Talent: The Soccer Factor Model for Skill Evaluation	https://arxiv.org/abs/2412.05911	cc-by-4.0	file: 2412.05911.md
+2412.06054	Methods to derive uncertainty intervals for lifetime risks for lung cancer related to occupational radon exposure	https://arxiv.org/abs/2412.06054	cc-by-4.0	file: 2412.06054.md
+2412.06128	Feasibility of Estimating Macroscopic Fundamental Diagrams in Iran Traffic Network	https://arxiv.org/abs/2412.06128	cc-by-4.0	file: 2412.06128.md
+2412.06807	Demand Modeling for Advanced Air Mobility	https://arxiv.org/abs/2412.06807	cc-by-4.0	file: 2412.06807.md
+2412.06934	A Scalable Bayesian Spatiotemporal Model for Water Level Predictions using a Nearest Neighbor Gaussian Process Approach	https://arxiv.org/abs/2412.06934	cc-by-4.0	file: 2412.06934.md
+2412.07134	A Bayesian Mixture Model Approach to Examining Neighborhood Social Determinants of Health Disparities in Endometrial Cancer Care in Massachusetts	https://arxiv.org/abs/2412.07134	cc-by-4.0	file: 2412.07134.md
+2412.07657	Probabilistic Modelling of Multiple Long-Term Condition Onset Times	https://arxiv.org/abs/2412.07657	cc-by-4.0	file: 2412.07657.md
+2412.07735	Theoretical and Practical Limits of Signal Strength Estimate Precision for Kolmogorov-Zurbenko Periodograms with Dynamic Smoothing	https://arxiv.org/abs/2412.07735	cc-by-4.0	file: 2412.07735.md
+2412.07879	Understanding algorithmic fairness for clinical prediction in terms of subgroup net benefit and health equity	https://arxiv.org/abs/2412.07879	cc-by-4.0	file: 2412.07879.md
+2412.07882	The continuous net benefit: Assessing the clinical utility of prediction models when informing a continuum of decisions	https://arxiv.org/abs/2412.07882	cc-by-4.0	file: 2412.07882.md
+2412.08416	Outcome-guided spike-and-slab Lasso Biclustering: A Novel Approach for Enhancing Biclustering Techniques for Gene Expression Analysis	https://arxiv.org/abs/2412.08416	cc-by-4.0	file: 2412.08416.md
+2412.08439	Adaptive Phase 2/3 Design with Dose Optimization	https://arxiv.org/abs/2412.08439	cc-by-4.0	file: 2412.08439.md
+2412.08606	Enhancing the use of family planning service statistics using a Bayesian modelling approach to inform estimates of modern contraceptive use in low- and middle-income countries	https://arxiv.org/abs/2412.08606	cc-by-4.0	file: 2412.08606.md
+2412.08793	Joint species distribution modeling of abundance data through latent variable barcodes	https://arxiv.org/abs/2412.08793	cc-by-4.0	file: 2412.08793.md
+2412.08869	Beyond Reweighting: On the Predictive Role of Covariate Shift in Effect Generalization	https://arxiv.org/abs/2412.08869	cc-by-4.0	file: 2412.08869.md
+2412.09583	Gradient-Boosted Mixture Regression Models for Postprocessing Ensemble Weather Forecasts	https://arxiv.org/abs/2412.09583	cc-by-4.0	file: 2412.09583.md
+2412.10173	Scalable magnetic resonance fingerprinting: Incremental inference of high dimensional elliptical mixtures from large data volumes	https://arxiv.org/abs/2412.10173	cc-by-4.0	file: 2412.10173.md
+2412.10578	CESAR: A Convolutional Echo State AutoencodeR for High-Resolution Wind Forecasting	https://arxiv.org/abs/2412.10578	cc-by-4.0	file: 2412.10578.md
+2412.10648	Statistical Issues in the Diagnosis of Shaken Baby Syndrome/Abusive Head Trauma	https://arxiv.org/abs/2412.10648	cc-by-4.0	file: 2412.10648.md
+2412.11610	Efficient Bayesian inversion for simultaneous estimation of geometry and spatial field using the Karhunen-Loève expansion	https://arxiv.org/abs/2412.11610	cc-by-4.0	file: 2412.11610.md
+2412.12983	Exploring natural variation in tendon constitutive parameters via Bayesian data selection and mixed effects models	https://arxiv.org/abs/2412.12983	cc-by-4.0	file: 2412.12983.md
+2412.13034	Unified calibration and spatial mapping of fine particulate matter data from multiple low-cost air pollution sensor networks in Baltimore, Maryland	https://arxiv.org/abs/2412.13034	cc-by-4.0	file: 2412.13034.md
+2412.13135	How Often are Fingerprints Repeated in the Population? Expanding on Evidence from AI With the Birthday Paradox	https://arxiv.org/abs/2412.13135	cc-by-4.0	file: 2412.13135.md
+2412.13570	Which Imputation Fits Which Feature Selection Method? A Survey-Based Simulation Study	https://arxiv.org/abs/2412.13570	cc-by-4.0	file: 2412.13570.md
+2412.14339	Forecasting Influenza Hospitalizations Using a Bayesian Hierarchical Nonlinear Model with Discrepancy	https://arxiv.org/abs/2412.14339	cc-by-4.0	file: 2412.14339.md
+2412.15076	Digital N-of-1 Trials and their Application in Experimental Physiology	https://arxiv.org/abs/2412.15076	cc-by-4.0	file: 2412.15076.md
+2412.15535	Protocol for an Observational Study on the Effects of Paternal Alcohol Use Disorder on Children's Later Life Outcomes	https://arxiv.org/abs/2412.15535	cc-by-4.0	file: 2412.15535.md
+2412.15713	Data Set of Load Tests and Structural Health Monitoring of a concrete Box Girder bridge	https://arxiv.org/abs/2412.15713	cc-by-4.0	file: 2412.15713.md
+2412.15791	A Bayesian Approach for Earthquake Impact Modelling	https://arxiv.org/abs/2412.15791	cc-by-4.0	file: 2412.15791.md
+2412.15806	TraianProt: a user-friendly R shiny application for wide format proteomics data downstream analysis	https://arxiv.org/abs/2412.15806	cc-by-4.0	file: 2412.15806.md
+2412.16403	From pixels to parcels: flexible, practical small-area uncertainty estimation for spatial averages obtained from aboveground biomass maps	https://arxiv.org/abs/2412.16403	cc-by-4.0	file: 2412.16403.md
+2412.17879	Strategy to control biases in prior event rate ratio method, with application to palliative care in patients with advanced cancer	https://arxiv.org/abs/2412.17879	cc-by-4.0	file: 2412.17879.md
+2412.19294	Spatio-Temporal Differences in Bike Sharing Usage: A Tale of Six Cities	https://arxiv.org/abs/2412.19294	cc-by-4.0	file: 2412.19294.md
+2412.19735	A General Framework of Brain Region Detection And Genetic Variants Selection in Imaging Genetics	https://arxiv.org/abs/2412.19735	cc-by-4.0	file: 2412.19735.md
+2412.20190	Maximizing Predictive Performance for Small Subgroups: Functionally Adaptive Interaction Regularization (FAIR)	https://arxiv.org/abs/2412.20190	cc-by-4.0	file: 2412.20190.md
+2501.00616	Improving Policy-Oriented Agent-Based Modeling with History Matching: A Case Study	https://arxiv.org/abs/2501.00616	cc-by-4.0	file: 2501.00616.md
+2501.04712	Pressing Intensity: An Intuitive Measure for Pressing in Soccer	https://arxiv.org/abs/2501.04712	cc-by-4.0	file: 2501.04712.md
+2401.01809	Evidential strength of categorical expert witness statements	https://arxiv.org/abs/2401.01809	cc-by-sa-4.0	file: 2401.01809.md
+2401.04410	Learning tapestries, a statistical learning substrate for open chaotic systems measured with error	https://arxiv.org/abs/2401.04410	cc-by-sa-4.0	file: 2401.04410.md
+2401.16396	Ovarian Cancer Diagnostics using Wavelet Packet Scaling Descriptors	https://arxiv.org/abs/2401.16396	cc-by-sa-4.0	file: 2401.16396.md
+2402.07236	Extending Inferences from Randomized Clinical Trials to Target Populations: A Scoping Review of Transportability Methods	https://arxiv.org/abs/2402.07236	cc-by-sa-4.0	file: 2402.07236.md
+2402.07806	A comparison of mixed-models for the analysis of non-linear longitudinal data: application to late-life cognitive trajectories	https://arxiv.org/abs/2402.07806	cc-by-sa-4.0	file: 2402.07806.md
+2402.14955	Quantile Regression Tree	https://arxiv.org/abs/2402.14955	cc-by-sa-4.0	file: 2402.14955.md
+2403.17221	Are Made and Missed Different? An analysis of Field Goal Attempts of Professional Basketball Players via Depth Based Testing Procedure	https://arxiv.org/abs/2403.17221	cc-by-sa-4.0	file: 2403.17221.md
+2403.17396	Handling multivariable missing data in causal mediation analysis estimating interventional effects	https://arxiv.org/abs/2403.17396	cc-by-sa-4.0	file: 2403.17396.md
+2404.10137	Parameterizations for Large-Scale Variational System Identification Using Unconstrained Optimization	https://arxiv.org/abs/2404.10137	cc-by-sa-4.0	file: 2404.10137.md
+2405.17214	Modelling between- and within-season trajectories in elite athletic performance data	https://arxiv.org/abs/2405.17214	cc-by-sa-4.0	file: 2405.17214.md
+2405.18020	The short-term association between environmental variables and mortality: evidence from Europe	https://arxiv.org/abs/2405.18020	cc-by-sa-4.0	file: 2405.18020.md
+2406.17198	Unraveling the Dynamics of SPY Trading Volumes: A Comprehensive Analysis of Daily and Intraday Liquidity Trends	https://arxiv.org/abs/2406.17198	cc-by-sa-4.0	file: 2406.17198.md
+2407.06875	Extending the blended generalized extreme value distribution	https://arxiv.org/abs/2407.06875	cc-by-sa-4.0	file: 2407.06875.md
+2407.07072	Assumption Smuggling in Intermediate Outcome Tests of Causal Mechanisms	https://arxiv.org/abs/2407.07072	cc-by-sa-4.0	file: 2407.07072.md
+2409.06731	A Stochastic Weather Model: A Case of Bono Region of Ghana	https://arxiv.org/abs/2409.06731	cc-by-sa-4.0	file: 2409.06731.md
+2409.09516	Forensically useful mid-term and short-term temperature reconstruction for quasi-indoor death scenes	https://arxiv.org/abs/2409.09516	cc-by-sa-4.0	file: 2409.09516.md
+2411.03580	Performance-Based Risk Assessment for Large-Scale Transportation Networks Using the Transitional Markov Chain Monte Carlo Method	https://arxiv.org/abs/2411.03580	cc-by-sa-4.0	file: 2411.03580.md
+2411.03779	Multilingual hierarchical classification of job advertisements for job vacancy statistics	https://arxiv.org/abs/2411.03779	cc-by-sa-4.0	file: 2411.03779.md
+2411.15075	The Effects of Major League Baseball's Ban on Infield Shifts: A Quasi-Experimental Analysis	https://arxiv.org/abs/2411.15075	cc-by-sa-4.0	file: 2411.15075.md
+2412.04535	A dual approach to proving electoral fraud using statistics and forensic evidence (Dvojnoe dokazatel'stvo falsifikazij na vyborah statistikoj i kriminalistikoj)	https://arxiv.org/abs/2412.04535	cc-by-sa-4.0	file: 2412.04535.md
+2412.15841	Geographic distribution of the global agricultural workforce every decade for the years 2000-2100	https://arxiv.org/abs/2412.15841	cc-by-sa-4.0	file: 2412.15841.md
+2501.00007	Bayesian Statistical Modeling in Action for Estimation and Forecasting in Low- and Middle-income Countries: The Case of the Family Planning Estimation Tool	https://arxiv.org/abs/2501.00007	cc-by-sa-4.0	file: 2501.00007.md
+2402.10859	Spatio-temporal point process modelling of fires in Sicily exploring human and environmental factors	https://arxiv.org/abs/2402.10859	cc0-1.0	file: 2402.10859.md
+2404.07275	Certification of MPC-based zonal controller security properties using accuracy-aware machine learning proxies	https://arxiv.org/abs/2404.07275	cc0-1.0	file: 2404.07275.md
+2404.08670	A Bayesian Regression Approach for Estimating the Impact of COVID-19 on Consumer Behavior in the Restaurant Industry	https://arxiv.org/abs/2404.08670	cc0-1.0	file: 2404.08670.md
+2407.13384	Movement-based models for abundance data	https://arxiv.org/abs/2407.13384	cc0-1.0	file: 2407.13384.md
+2407.21000	Parameters Evolution in Source-Sink Space Population Evolutionary Models	https://arxiv.org/abs/2407.21000	cc0-1.0	file: 2407.21000.md
+2410.06585	Challenges and Possible Strategies to Address Them in Rare Disease Drug Development: A Statistical Perspective	https://arxiv.org/abs/2410.06585	cc0-1.0	file: 2410.06585.md
+2410.06586	Use of Real-World Data and Real-World Evidence in Rare Disease Drug Development: A Statistical Perspective	https://arxiv.org/abs/2410.06586	cc0-1.0	file: 2410.06586.md
+2410.06591	Decentralized Clinical Trials in the Era of Real-World Evidence: A Statistical Perspective	https://arxiv.org/abs/2410.06591	cc0-1.0	file: 2410.06591.md
+2411.04211	Using Linked Micromaps for Evidence-Based Policy	https://arxiv.org/abs/2411.04211	cc0-1.0	file: 2411.04211.md
+2411.07745	Modeling Alzheimer's Disease: Bayesian Copula Graphical Model from Demographic, Cognitive, and Neuroimaging Data	https://arxiv.org/abs/2411.07745	cc0-1.0	file: 2411.07745.md
