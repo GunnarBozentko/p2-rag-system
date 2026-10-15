@@ -106,7 +106,7 @@ Looking at our table, we can see we have statistically significant intervals tha
 
 The minimum detectable difference at 20 queries is the true difference needed between two methods on a designated metric to correctly identify there is a distinguishable difference between the two 80% of the time. Our MDD ranges from .141 to .415. What this means when there is a gap smaller than the minimum detectable difference at 20 queries is that the differences between the models are invisible to the gold set, whether there is a true difference or not.
 
-The claim from lecture 12 that BM25 and Dense each miss in a predictable kind of query is backed up by my observations. We saw that BM25 matches exact words, and it got a 0 for MRR@10 for the paraphrase section. Dense got a .333 MRR score for the identifier questions, which makes sense as it searches for meanings. This is not exactly proven though as we do not have an interval to go off for this. One claim that was left open was that BM25 is the baseline to beat, and dense models usually beat it on average. We can see that in our intervals for dense - BM25, all three metric intervals included 0. This means we are not able to definitively say there is a distinguishable difference in the performance of these two models. The claim from lecture 13 that can be supported is that a reranker can't rescue a document that isn't among its candidates. This is supported by my data as when the relevant section was in the hybrid's initial top 20, the reranker was able to effectively reorder the relevant section to first. If the relevant section was not in the top 20, it was missed completely.
+The claim from lecture 12 that BM25 and Dense each miss in a predictable kind of query is consistent with my observations. We saw that BM25 matches exact words, and it got a 0 for MRR@10 for the paraphrase section. Dense got a .333 MRR score for the identifier questions, which makes sense as it searches for meanings. This is not exactly proven though as we do not have an interval to go off for this. One claim that was left open was that BM25 is the baseline to beat, and dense models usually beat it on average. We can see that in our intervals for dense - BM25, all three metric intervals included 0. This means we are not able to definitively say there is a distinguishable difference in the performance of these two models. The claim from lecture 13 that can be supported is that a reranker can't rescue a document that isn't among its candidates. This is supported by my data as when the relevant section was in the hybrid's initial top 20, the reranker was able to effectively reorder the relevant section to first. If the relevant section was not in the top 20, it was missed completely.
 
 
 ---
@@ -114,7 +114,9 @@ The claim from lecture 12 that BM25 and Dense each miss in a predictable kind of
 ## 2. Stage 1 - cited answers on the 12 shared questions
 
 <!-- p2:begin answers -->
-_No answers files yet: run `uv run p2 answer --corpus shared --system NAME`, then `uv run p2 score`._
+| Label | System | Verified (in) | 95% interval | not_found (in) | Declined (out) | 95% interval | Quotes found |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| rerank | rerank | 8 of 8 (100%) | [0.676, 1.000] | 0 of 8 (0%) | 4 of 4 (100%) | [0.510, 1.000] | 11 of 11 |
 <!-- p2:end answers -->
 
 Which system answered, and why that one?
@@ -124,7 +126,19 @@ Then read three in-corpus answers that `uv run p2 verify` passed.
 For each one, open the cited chunk and say whether the quote really supports the claim next to it.
 The check proves a quote is a real piece of the chunk and cannot prove that it supports the claim, so this reading is the part only you can do.
 
-TODO: write your answer choices and your three-answer audit.
+
+The system that answered was rerank. The reason why I chose rerank over BM25, Dense, and Hybrid, was because it was the only model that had a distinguishable difference than the other models, (0 was not in the confidence intervals for the mean difference).
+
+I did not change anything in prompts/answer.txt. There is nothing to compare since there is one prompt, and it got 8 of 8 verified and 4 of 4 declined.
+
+
+
+I chose to look into question a04: How often must an underground metal or nonmetal mine hold evacuation drills? I believe the claims in the answer are backed up. Claim 1 states that underground mine evacuation drills must be held at least once every six months, and this is backed up in the text as there is a quote that directly mentions this claim. Claim 2 states that drills must be held for each shift at some time other than a shift change and involve all persons underground, which is also backed up in the text as there is a quote that directly mentions this claim. Section 57 also holds information for underground metal and nonmetal mines, so this checks out.
+
+I chose to look into question a05: How many hours of training must a new underground miner receive before being assigned to work duties? I believe the claims in the answer are backed up. Claim 1 states that each new underground miner must receive no less than 40 hours of training before being assigned to work duties, and this is backed up in the text as there is a quote that directly mentions this claim. Claim 2 states that approximately 8 of those hours are given at the minesite, and this is also mentioned in the text as there is a quote that directly mentions this claim. Section 48 is about trianing rules so this makes sense.
+
+I chose to look into question a07: How high must berms or guardrails be on the banks of roadways at metal and nonmetal mines? I believe the claims in the answer are backed up. Claim 1 states that Berms or guardrails must be at least mid-axle height of the largest self-propelled mobile equipment that usually travels the roadway, and this is backed up in the text as there is a quote that directly mentions this claim. Claim 2 states that The same height requirement appears in 30 CFR 57.9300, and after checking this is also true. Section 57 also holds information for underground metal and nonmetal mines, so this checks out.
+
 
 ---
 
@@ -269,6 +283,7 @@ Every trace in traces/ that records a Claude call:
 
 | Trace | System | Spans | Claude calls | Saved | Input tokens | Output tokens | Seconds | Input per span | Output per span | Seconds per span |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| traces/answers-rerank.jsonl | rerank | 12 | 24 | 4 | 187,426 | 3,940 | 97.4 | 15,619 | 328 | 8.1 |
 | traces/shared-practice-rerank.jsonl | rerank | 20 | 20 | 20 | 200,932 | 1,820 | 68.0 | 10,047 | 91 | 3.4 |
 | traces/shared-test-rerank.jsonl | rerank | 40 | 40 | 2 | 478,196 | 4,626 | 144.4 | 11,955 | 116 | 3.6 |
 
