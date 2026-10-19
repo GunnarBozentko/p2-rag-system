@@ -159,7 +159,12 @@ How did you decide that a document is relevant: write your relevance rule in two
 How did you find candidates (the systems' top 10, a keyword search, reading), and did you read every document before you labeled it?
 Your labels are binary (`rel` 1) unless you say otherwise: if you use graded labels, declare the scale here, for example 2 means the document answers the query fully and 1 means it helps.
 
-TODO: describe your gold set and your relevance rule.
+
+I have 10 queries written by hand and 45 written by claude. This allows for enough queries to be able to tell if there is a distinguishable difference between dense and hybrid. There are 19 identifier, 19 mixed, and 17 paraphrase queries. This was to give an even amount of differing query types so all models can play to their strengths and to see how our models generalize to differing questions. 
+
+The candidates were chosen by combining the bm25's top 5, dense's top 5, hybrid's top 5, plus the source the query was written from. Each candidate was read in full before being labeled relevant or not.
+
+I will decide if a document is relevant if the abstract answers the question rather than if the abstract is about the same topic. I will use a binary scale where 1 represents the abstract is relevant, and documents not listed are not relevant. A paper that uses the method the query names but doesn't answer the question will not be labeled relevant. A paper that answers only part of a two-part question will be labeled relevant.
 
 ---
 
