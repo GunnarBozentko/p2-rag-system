@@ -2,3 +2,59 @@
 # origin is hand when you wrote the query yourself and claude when a model drafted it; at least 10 must be hand.
 # class is a word you choose, for example identifier, paraphrase or mixed as in the shared sets; scores are reported per class.
 # Lines that start with # are comments, so delete these lines or keep them, as you like.
+# Reading list: 2407.10869 2506.19536 2405.18020 2505.18891 2409.18684 2402.14955 2403.02024 2506.21822 2501.04719 2512.00519
+o01	mixed	For hidden markov models, how do we determine the number of underlying states?	hand
+o02	paraphrase	How can generating code using an AI chatbot for STEM fields be used for calculating the chance something fails?	hand
+o03	identifier	What is the relationship between harvesting effect and heat waves?	hand
+o04	identifier	What do microstructural features for mechanical properties and structural reliability influenced by?	hand
+o05	identifier	What is a study that has been done on distortion functions?	hand
+o06	paraphrase	What is a new type of model that uses a quantile regression system, and the model splits the data into branches?	hand
+o07	mixed	How can structural responses be used to demonstrate how effective a model is?	hand
+o08	mixed	Does driving and chipping onto a green seem to have more of an impact for golf skill than putting?	hand
+o09	paraphrase	What are some models that can be used to show how important someone can be to a business over a period of time?	hand
+o10	identifier	How has AI changed student engagement in regards to their four types of interaction?	hand
+o11	identifier	How does EIP-7251 validator consolidation affect the probability of being selected as block proposer?	claude
+o12	identifier	What does the BlockingPy package do for entity resolution?	claude
+o13	identifier	How accurate was PoSSUM at polling the 2024 U.S. presidential election?	claude
+o14	identifier	How does SkipTrack account for skipped cycles in menstrual tracking app data?	claude
+o15	identifier	How does TaxaPLN augment microbiome data for trait classification?	claude
+o16	identifier	Was Devon Allen's reaction time disqualification at the 2022 World Championships justified?	claude
+o17	identifier	How are Benford matrices used in counter-intelligence investigations?	claude
+o18	identifier	Which decentralized wastewater treatment technologies perform best in the Philippines?	claude
+o19	identifier	How well do machine learning models predict VBAC outcomes from natality data?	claude
+o20	identifier	How does residual kriging improve GEDI canopy height estimates?	claude
+o21	identifier	How does the Precision Dose-Finding design use pharmacokinetic data in phase I trials?	claude
+o22	identifier	What is the forensic bullet comparison visualizer?	claude
+o23	identifier	How have FIA regulations and DRS affected overtaking in Formula 1?	claude
+o24	identifier	How can the robustness of learned staged tree models be validated?	claude
+o25	identifier	How does the PS-CARE model detect change points in pairwise comparison data?	claude
+o26	mixed	Does bunting pay off for a home team stuck in a tie after nine?	claude
+o27	mixed	Did shutting schools during the pandemic cost more than it saved?	claude
+o28	mixed	Can both vote-count anomalies and tampered ballot bags reveal fraud in a local election?	claude
+o29	mixed	Does historic redlining still shape what city residents breathe?	claude
+o30	mixed	What environmental factors decide where earthworm species live across France?	claude
+o31	mixed	Which way of combining likelihood ratios works best for familial DNA searches in Thailand?	claude
+o32	mixed	How can solar irradiance be predicted every ten minutes where weather stations are sparse?	claude
+o33	mixed	How do a driver's age and experience shape how safe people feel at roundabouts?	claude
+o34	mixed	Do voters pick the wrong judicial candidate when the ballot leaves out party labels?	claude
+o35	mixed	Does finishing high school pay off directly, or mainly by leading people on to college?	claude
+o36	mixed	Does crowd-sourced Transfermarkt data help forecast games outside the top flight?	claude
+o37	mixed	Does adding Elo help forecast who wins at the biggest tennis events?	claude
+o38	mixed	Do tennis players really ride hot streaks within a match?	claude
+o39	mixed	Which way of ranking national teams best forecasts international football tournaments?	claude
+o40	mixed	How can the length of an operation be predicted for each surgeon to help schedule operating rooms?	claude
+o41	paraphrase	Are people aging more slowly now, or does the decline just start later in life?	claude
+o42	paraphrase	Did the patient pick up the bug on the ward, and from whom?	claude
+o43	paraphrase	How do you project how long people in a small region will live when its own records are too thin?	claude
+o44	paraphrase	Can upper-air breezes be inferred from the drift of clouds seen from orbit?	claude
+o45	paraphrase	How do you guess lost readings at a wind power site using the arrangement of its machines?	claude
+o46	paraphrase	How can bowel cancer checks be tailored to each person instead of being set by age alone?	claude
+o47	paraphrase	Why do studies that group patients with several chronic illnesses end up with different groupings?	claude
+o48	paraphrase	How can an AI that writes text help estimate what effect the wording of a message has on readers?	claude
+o49	paraphrase	How do you stop patchy fieldwork coverage from skewing maps of where old settlements likely lie?	claude
+o50	paraphrase	Do different ways of calculating pollution from power plants give different answers?	claude
+o51	paraphrase	Which uncertain inputs should engineers pay to pin down when their distributions are very lopsided?	claude
+o52	mixed	How should loose ground near San Jose be modeled for earthquake simulations?	claude
+o53	paraphrase	Can we foresee which crossings will see walkers struck by cars before it happens?	claude
+o54	paraphrase	What process should analysts follow to chart local health rates in low-income nations from door-to-door questionnaires?	claude
+o55	paraphrase	When some answers are missing, how should the gaps be filled before splitting an effect into direct and indirect parts?	claude
