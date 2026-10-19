@@ -24,7 +24,7 @@ One sentence, about your own corpus, naming two of your systems and a direction.
 For example: "On my corpus of Kubernetes documentation, `rerank` has a higher MRR@10 than `hybrid`, because the queries are paraphrases that a first-stage fusion ranks too low."
 It should be something you could be wrong about.
 
-TODO: your hypothesis.
+On my corpus of arXiv Statistics abstracts, my hypothesis is that hybrid will outperform dense for nDCG@10 because abstracts are short and specific, so BM25 will be wrong less often and will contribute in areas where dense will miss such as matching names or acronyms.
 
 ---
 
@@ -36,7 +36,7 @@ A difference of 0.02 is usually not worth a reranker's cost in time and tokens.
 In this course, choose a Δ of at least 0.15 unless you argue for a larger one, because a smaller gap takes more queries than one project can judge.
 Call your number Δ (delta).
 
-TODO: your metric and your Δ, with the reason.
+For the metric nDCG@10 I choose a delta of .15. A delta of .15 would be a noticeable difference between hybrid and dense as this gap would mean that the hybrid model finds the abstract in the top 10 in at least 15% more queries.
 
 ---
 
@@ -65,7 +65,11 @@ After you score the own corpus, the minimum detectable difference that `uv run p
 It should come out at or below your Δ.
 If it does not, your queries varied more than your stage 1 sd suggested, and you will say so in the outcome.
 
-TODO: your sd, which pair it came from, your n, and the number of queries you will write (at least n).
+My standard deviation is .383 and it comes from the hybrid minus dense pair for the nDCG@10 metric from results/results.json on the 20 practice queries. 
+
+n = ((1.96 + 0.84) * 0.383 / .15)^2 = 51.11
+
+My n is 51.11, but I will write 55 queries just in case the standard deviation of my own corpus for hybrid vs dense for nDCG@10 is a bit higher.
 
 ---
 
@@ -82,7 +86,7 @@ This is the default rule, and you can tighten it, but do not loosen it after you
 | around zero, with both ends inside plus or minus Δ | well-powered null: a difference as large as Δ is ruled out |
 | around zero, with an end beyond plus or minus Δ | inconclusive: the gold set could not settle it, and I say so |
 
-TODO: confirm or tighten this rule, and name the two systems and the metric once more.
+I confirm this table of rules/conclusions. I am testing the mean difference of hybrid minus dense for the metric nDCG@10 with a delta of .15.
 
 ---
 
