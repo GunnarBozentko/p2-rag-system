@@ -178,6 +178,7 @@ Scores per system on your gold set.
 | bm25 | 0.818 | 0.738 | 0.754 |
 | dense | 0.955 | 0.907 | 0.917 |
 | hybrid | 0.973 | 0.824 | 0.858 |
+| rerank | 0.973 | 0.961 | 0.959 |
 
 55 judged queries; nDCG uses binary labels; a random ranking of the 1,005 documents would get recall@10 near 0.010.
 <!-- p2:end own -->
@@ -196,6 +197,9 @@ The same scores per query class.
 | hybrid | Recall@10 | 1.000 | 0.912 | 1.000 |
 | hybrid | MRR@10 | 0.947 | 0.518 | 0.974 |
 | hybrid | nDCG@10 | 0.957 | 0.609 | 0.981 |
+| rerank | Recall@10 | 1.000 | 0.912 | 1.000 |
+| rerank | MRR@10 | 1.000 | 0.912 | 0.965 |
+| rerank | nDCG@10 | 1.000 | 0.897 | 0.974 |
 <!-- p2:end own-classes -->
 
 The same scores for the queries you wrote yourself (`hand`) and the ones a model drafted (`claude`), with the difference between the two groups and its interval.
@@ -213,6 +217,9 @@ Once both groups have queries, the table also says whether `bm25`'s lead over `d
 | hybrid | Recall@10 | 1.000 | 0.967 | +0.033 | [+0.000, +0.089] | not distinguishable |
 | hybrid | MRR@10 | 0.867 | 0.814 | +0.053 | [-0.154, +0.230] | not distinguishable |
 | hybrid | nDCG@10 | 0.899 | 0.848 | +0.050 | [-0.110, +0.189] | not distinguishable |
+| rerank | Recall@10 | 1.000 | 0.967 | +0.033 | [+0.000, +0.089] | not distinguishable |
+| rerank | MRR@10 | 0.933 | 0.967 | -0.033 | [-0.189, +0.078] | not distinguishable |
+| rerank | nDCG@10 | 0.950 | 0.961 | -0.011 | [-0.128, +0.078] | not distinguishable |
 
 The hand and claude queries are different queries, so the interval of hand minus claude comes from resampling the queries within each group (10,000 times), not from pairing them.
 
@@ -243,8 +250,17 @@ Differences between every pair of systems.
 | hybrid minus dense | Recall@10 | +0.018 | [-0.045, +0.091] | 0.096 | not distinguishable |
 | hybrid minus dense | MRR@10 | -0.083 | [-0.160, -0.013] | 0.107 | dense higher |
 | hybrid minus dense | nDCG@10 | -0.060 | [-0.127, +0.001] | 0.093 | not distinguishable |
+| rerank minus bm25 | Recall@10 | +0.155 | [+0.073, +0.255] | 0.135 | rerank higher |
+| rerank minus bm25 | MRR@10 | +0.222 | [+0.121, +0.333] | 0.157 | rerank higher |
+| rerank minus bm25 | nDCG@10 | +0.205 | [+0.113, +0.307] | 0.143 | rerank higher |
+| rerank minus dense | Recall@10 | +0.018 | [-0.045, +0.091] | 0.096 | not distinguishable |
+| rerank minus dense | MRR@10 | +0.054 | [-0.018, +0.130] | 0.108 | not distinguishable |
+| rerank minus dense | nDCG@10 | +0.042 | [-0.026, +0.113] | 0.102 | not distinguishable |
+| rerank minus hybrid | Recall@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| rerank minus hybrid | MRR@10 | +0.137 | [+0.065, +0.218] | 0.110 | rerank higher |
+| rerank minus hybrid | nDCG@10 | +0.101 | [+0.049, +0.161] | 0.081 | rerank higher |
 
-The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time. Two systems that score the same on every query have no interval to speak of, so their MDD is shown as -.
 <!-- p2:end own-pairs -->
 
 Which differences are distinguishable and which are not, at your gold-set size?
@@ -344,6 +360,7 @@ Every trace in traces/ that records a Claude call:
 | traces/answers-rerank.r1.jsonl | rerank | 12 | 24 | 0 | 194,475 | 4,162 | 119.1 | 16,206 | 347 | 9.9 |
 | traces/answers-rerank.r2.jsonl | rerank | 12 | 24 | 0 | 208,079 | 4,366 | 105.2 | 17,340 | 364 | 8.8 |
 | traces/answers-rerank.r3.jsonl | rerank | 12 | 24 | 0 | 212,328 | 4,034 | 157.9 | 17,694 | 336 | 13.2 |
+| traces/own-own-rerank.jsonl | rerank | 55 | 55 | 2 | 568,314 | 5,005 | 180.5 | 10,333 | 91 | 3.3 |
 | traces/shared-practice-rerank.jsonl | rerank | 20 | 20 | 20 | 200,932 | 1,820 | 68.0 | 10,047 | 91 | 3.4 |
 | traces/shared-practice-rerank.r1.jsonl | rerank | 20 | 20 | 0 | 230,951 | 2,171 | 96.9 | 11,548 | 109 | 4.8 |
 | traces/shared-practice-rerank.r2.jsonl | rerank | 20 | 20 | 0 | 204,625 | 1,930 | 98.3 | 10,231 | 96 | 4.9 |
@@ -359,6 +376,9 @@ Every pair of systems on the same queries where at least one calls Claude, the o
 | shared practice: bm25 minus rerank | 20 | -0.243 | [-0.476, -0.010] | 10,047 | 3.4 | rerank higher |
 | shared practice: dense minus rerank | 20 | -0.188 | [-0.392, +0.017] | 10,047 | 3.4 | not distinguishable |
 | shared practice: hybrid minus rerank | 20 | -0.279 | [-0.441, -0.128] | 10,047 | 3.4 | rerank higher |
+| own: bm25 minus rerank | 55 | -0.222 | [-0.333, -0.121] | 10,333 | 3.3 | rerank higher |
+| own: dense minus rerank | 55 | -0.054 | [-0.130, +0.018] | 10,333 | 3.3 | not distinguishable |
+| own: hybrid minus rerank | 55 | -0.137 | [-0.218, -0.065] | 10,333 | 3.3 | rerank higher |
 
 The difference is the cheaper system's score minus the dearer one's, with its paired interval; the savings count Claude calls only, so a system that makes none saves all of the other's.
 
