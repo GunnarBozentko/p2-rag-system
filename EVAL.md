@@ -150,7 +150,7 @@ What is it, where did it come from, how many documents and how many megabytes, a
 Name the one or two documents you were least sure about and what you decided.
 Say which of the allowed sources in the brief it comes from.
 
-TODO: describe your corpus and its license basis.
+My corpus is 1005 arXiv abstracts from the stat.AP category under CC0, CC BY, or CC BY-SA, which are an allowed source in the brief. It describes different applied statistics studies, with 431 of them from 2024 and 574 of them from 2025. There are 196,504 words, so the corpus averages about 196 words per document, and all the texts combined are about 1.4 MB. This is about 275,000 tokens. Each document has its own license, with 928 of them CC BY 4.0, 54 CC BY-SA, and 23 CC0. All were checked on 2026-10-15 by uv run p2 license --online, and all license checks came back okay. The documents I was least sure about were 2411.13356, 2505.00510 and 2511.02682, and this is because they were very short (about 50 words). I decided to keep them to see how the RAG system can perform on shorter document sizes as well.
 
 ### The gold set
 
