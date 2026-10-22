@@ -267,7 +267,11 @@ Which differences are distinguishable and which are not, at your gold-set size?
 Do the `hand` queries and the `claude` queries tell the same story?
 Did your prediction in `DECISIONS.md` prompt 1 hold?
 
-TODO: write what your own-corpus intervals let you claim.
+For our intervals, we see that dense, hybrid, and rerank beat bm25 on all 3 metrics as none of the intervals include 0. For example, dense minus BM25 had the interval of [+0.036, +0.245] for recall@10. We see that rerank beat hybrid on MRR@10 and nDCG@10, but for recall@10 they had identical scoring on every query. Rerank minus dense was not distinguishable at all as all the intervals included 0. Hybrid minus dense had only one interval that did not include 0, and this was for MRR@10 and the interval is [-0.160, -0.013], so dense outperformed hybrid on this metric.
+
+The hand and claude written queries tell mostly similar stories. One story that does not agree is that bm25's recall@10 differs from hand to claude as the interval does not include 0, [+0.111, +0.356]. It is higher for the hand queries. Also, bm25's lead over dense is larger on the hand queries than on the claude ones. We see this as all metrics for claude minus hand the intervals do not include 0.
+
+My prediction that hybrid would beat dense did not hold. There is more on this in section 9 in my 598 Rider section covering this. Rerank had the highest scores but it was not distinguishable from dense, so we can not say for certain that rerank outperformed all other models. This is because both models performed very well and were close to the ceiling. Bm25 came last as expected, but my judgement that it would not perform well due to the statistical jargon was not correct, as it did very well on the identifier queries. It lacked greatly on the paraphrase queries.
 
 ---
 
