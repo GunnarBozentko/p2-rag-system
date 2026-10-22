@@ -26,7 +26,8 @@ Commit this answer before your first `uv run p2 score` on the own corpus.
 Git history then shows that the expectation came first, which is what lets it be wrong in a way that teaches you something.
 If you were surprised later, say so in prompt 4 or in EVAL.md; do not come back and rewrite this one.
 
-TODO: your answer to prompt 1.
+
+I picked the corpus I did for stage 2 as it talks about statistical studies on multiple different areas. I chose this as I was a statistics major in my undergrad, and I found reading about new studies very interesting. I expected hybrid to beat dense as it combines dense for paraphrase queries and bm25 for identifier queries. I expect overall rerank to perform the best as it performed the best on the original corpus. I also expected bm25 to perform the worst as keywords may lead to multiple different documents for the query with different meanings as there is a lot of statistical jargon that is repeated. (I wrote this after I ran uv run p2 score, but this is what I would have expected. Also, in the brief's pacing plan, it says to complete decision log last over the weekend, so I did not see this question until after running the scores on my corpus.)
 
 ---
 
