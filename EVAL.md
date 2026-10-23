@@ -298,6 +298,8 @@ Read the queries at the top of each list in the second table, and say whether yo
 
 TODO: write the ablation: the one change, the hypothesis, the result and the claim.
 
+The one change I made is that I swapped the dense retriever's embedding model from bge-small-en-v1.5 to potion-retrieval-32M. My hypothesis is that I expect dense MRR@10 to decrease compared to the original dense MRR@10 score for my personal corpus. This is because dense potion-retrieval-32M performed worse than dense bge-small-en-v1.5 on the shared corpus when I ran it previously to test it myself in stage 1.
+
 ---
 
 ## 6. Failure analysis
