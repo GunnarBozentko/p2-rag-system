@@ -348,9 +348,9 @@ What did you change, what happened, and does the interval support the claim you 
 If the result is not distinguishable, say what size of effect your gold set could have seen.
 Read the queries at the top of each list in the second table, and say whether your change explains them.
 
-TODO: write the ablation: the one change, the hypothesis, the result and the claim.
-
 The one change I made is that I swapped the dense retriever's embedding model from bge-small-en-v1.5 to potion-retrieval-32M. My hypothesis is that I expect dense MRR@10 to decrease compared to the original dense MRR@10 score for my personal corpus. This is because dense potion-retrieval-32M performed worse than dense bge-small-en-v1.5 on the shared corpus when I ran it previously to test it myself in stage 1.
+
+Looking at the ablation tables, we see that the dense that uses the potion embedding minus the original dense has a mean difference of -0.120 for MRR@10. My 95% interval is [-0.202, -0.044]. The 95% interval excludes 0, so dense is distinguishably better on MRR@10 than the ablation potion dense model. This supports my hypothesis that the original dense model will outperform the ablation dense model on the MRR@10 metric. We see that my ablation model helped 1 query, hurt 12 queries, and didn't change 42 queries. We see a trend that the ablation's dense model performed worse on paraphrase queries, which were 9 of the 12 queries it hurt. The one query it did better on was o07, which was a mixed query. The query and its relevant document shared the exact phrase "structural response", but dense ranked other documents above it. Since the potion embedding averages fixed word vectors rather than reading the whole sentence, it seemed to perform worse on paraphrase queries. 
 
 ---
 
