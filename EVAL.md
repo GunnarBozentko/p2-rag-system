@@ -362,8 +362,13 @@ Then sort the failures by cause, for example a vocabulary mismatch, near-duplica
 
 | qid | what the best system returned | what was relevant | cause | what you would try |
 |---|---|---|---|---|
+| o03 | (rerank) rank 1 2503.04568, rank 2 2511.17148, rank 3 relevant | 2405.18020 | the reranker's 600-character passage limit | show claude more characters of each candidate |
+| o51 | (rerank) rank 1 2507.08488, rank 2 relevant | 2407.17719 | the reranker's 600-character passage limit | show claude more characters of each candidate |
+| o50 | (rerank) rank 1 2501.01954, rank 2 2508.11912, relevant not in top 10 | 2411.13663 | vocabulary mismatch | give dense more weight in hybrid |
+| o47 | (dense) rank 1 2503.08378, rank 2 2505.10952, relevant not in top 10 | 2505.02111 | vocabulary mismatch | lean on rerank |
+| o09 | (dense) rank 1 2405.03579, rank 2 2409.19522, relevant not in top 10 | 2501.04719 | ambiguous query | lean on rerank |
 
-TODO: add one row for each failure you analyzed, and write two or three sentences on the pattern you see across them.
+My rerank only had 3 incorrect, so to reach the 5 incorrect I included two from my dense model as well. A trend I see from my failures was that most of them were paraphrase queries (4 of them) and only 1 was an identifier query. It seems that possibly my hybrid might have been needed to weigh more heavily on the dense model as hybrid seems weaker with my paraphrase queries, and dense performs better on these types of queries than BM25. I also notice the trend that my reranker only sees the first 600 characters, and if a distinguishing word was past that then the rerank would not see it.
 
 ---
 
