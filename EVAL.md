@@ -381,7 +381,39 @@ Did the winner change between the shared corpus and yours?
 Why, or why not: what is different about the two collections (document length, vocabulary, identifiers, near-duplicates, how the queries were written), and which of your explanations did you test and which are guesses?
 Say what 20 queries on one side and your gold-set size on the other cannot support.
 
-TODO: write the cross-corpus comparison.
+Scores per system on both corpora, copied from the `shared-practice` table (section 1, 20 queries) and the `own` table (section 4, 55 queries):
+
+| System | Shared Recall@10 | Own Recall@10 | Shared MRR@10 | Own MRR@10 | Shared nDCG@10 | Own nDCG@10 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| bm25 | 0.625 | 0.818 | 0.507 | 0.738 | 0.518 | 0.754 |
+| dense | 0.558 | 0.955 | 0.562 | 0.907 | 0.480 | 0.917 |
+| hybrid | 0.617 | 0.973 | 0.471 | 0.824 | 0.457 | 0.858 |
+| rerank | 0.725 | 0.973 | 0.750 | 0.961 | 0.718 | 0.959 |
+
+Paired differences on both corpora, MRR@10 and nDCG@10, copied from the `shared-practice-pairs` table (section 1) and the `own-pairs` table (section 4):
+
+| Comparison | Metric | Shared difference | Shared 95% interval | Shared reading | Own difference | Own 95% interval | Own reading |
+| --- | --- | ---: | ---: | --- | ---: | ---: | --- |
+| dense minus bm25 | MRR@10 | +0.055 | [-0.225, +0.343] | not distinguishable | +0.169 | [+0.063, +0.281] | dense higher |
+| dense minus bm25 | nDCG@10 | -0.039 | [-0.302, +0.231] | not distinguishable | +0.163 | [+0.064, +0.270] | dense higher |
+| hybrid minus bm25 | MRR@10 | -0.036 | [-0.178, +0.084] | not distinguishable | +0.085 | [+0.016, +0.160] | hybrid higher |
+| hybrid minus bm25 | nDCG@10 | -0.062 | [-0.218, +0.082] | not distinguishable | +0.104 | [+0.041, +0.172] | hybrid higher |
+| hybrid minus dense | MRR@10 | -0.091 | [-0.305, +0.110] | not distinguishable | -0.083 | [-0.160, -0.013] | dense higher |
+| hybrid minus dense | nDCG@10 | -0.023 | [-0.191, +0.137] | not distinguishable | -0.060 | [-0.127, +0.001] | not distinguishable |
+| rerank minus bm25 | MRR@10 | +0.243 | [+0.010, +0.476] | rerank higher | +0.222 | [+0.121, +0.333] | rerank higher |
+| rerank minus bm25 | nDCG@10 | +0.200 | [-0.021, +0.416] | not distinguishable | +0.205 | [+0.113, +0.307] | rerank higher |
+| rerank minus dense | MRR@10 | +0.188 | [-0.017, +0.392] | not distinguishable | +0.054 | [-0.018, +0.130] | not distinguishable |
+| rerank minus dense | nDCG@10 | +0.239 | [+0.052, +0.419] | rerank higher | +0.042 | [-0.026, +0.113] | not distinguishable |
+| rerank minus hybrid | MRR@10 | +0.279 | [+0.128, +0.441] | rerank higher | +0.137 | [+0.065, +0.218] | rerank higher |
+| rerank minus hybrid | nDCG@10 | +0.262 | [+0.150, +0.383] | rerank higher | +0.101 | [+0.049, +0.161] | rerank higher |
+
+The winner did not change between the shared corpus and mine. Rerank performed the best on both the shared corpus and my own corpus. On the shared corpus, we did not see any distinguishable difference between dense and bm25, but for my own corpus dense was distinguishably better than bm25. Also, for my own corpus, rerank is not distinguishably higher than dense, whereas for the shared corpus it was for the nDCG@10 metric.
+
+There are some important differences to note between the shared corpus and my personal corpus. For the document length, the shared corpus has a median of 68 words, but goes up to 3583. For my own personal corpus the median is 199 words and goes up to 323 words. For vocabulary and near-duplicates, we see in the shared corpus there are repeat rules across parts 56, 57, 75, 77. For my own corpus, each abstract is about its own topic, and pretty much all of my 55 queries had only one relevant document. Only 4 queries had two relevant documents. Both corpora have identifier queries, but bm25 scored a 0 on paraphrase queries on the shared corpus, and scored .261 on the paraphrase queries on my own. For the shared corpus, professor Zibo wrote the queries, whereas for my own personal corpus, I wrote 10 queries, and Claude wrote the rest of the 45. 
+
+I was able to test whether the model-written queries favored bm25 over hand-written queries. We saw that BM25 performed better on my hand written queries than the claude written queries as the interval excluded 0 for these comparisons for Recall@10. We can measure but not test the significance that the size of the document has on the effectiveness of the model. We can see that the shared corpus was shorter but varied widely, but we can not test if this difference is significant. My guesses are that the near-duplicates hurt the shared corpus, and the CFR's legal vocabulary was harder for the dense model.
+
+On the shared corpus, we have 20 queries. This gave us MDD's between .19 to .41. On my personal corpus, we have 55 queries. This gave us MDD's between .08 to .16. This means that for my own corpus, we are more confident there is a distinguishable difference between two models when there is the same mean difference between models than on the shared corpus. It is also important to note that the scores on my own personal corpus sit near the ceiling, so the systems have little room to separate. Just because the models are not distinguishable on the 20 queries, it doesn't mean the systems are equal. It just means that the 20 queries can not tell them apart. 
 
 ---
 
@@ -471,7 +503,7 @@ _No stretch runs yet (stretch option 5): `uv run p2 run --corpus own --queries e
 
 ### Your stretch
 
-Write the five things here.
+Doing 598E Rider.
 
 ---
 
