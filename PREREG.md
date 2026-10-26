@@ -97,7 +97,15 @@ Which row of the table in section 4 is it?
 Did your gold set reach the size section 3 asked for, and what was the minimum detectable difference that `uv run p2 score` printed?
 What would you do next, and what would you want a reader to take from this?
 
-TODO: your outcome.
+The interval was hybrid minus dense on nDCG@10. The mean was -0.060, the 95% interval was [-0.127, 0.001], and this comes from the own-pairs table and results/results.json.
+
+In the section 4 table, it is row 3, the well-powered null. The interval includes zero and both ends are inside +- 0.15. A difference as large as delta is ruled out in either direction and the point estimate leans toward dense. This is against my hypothesis, but it is not distinguishable from zero. 
+
+The gold set did reach its size as I had 55 queries, and the target n was 51.11. The MDD was 0.093, which is below the delta of 0.15. The reason my MDD was much lower than the targeted 0.15 was because my corpus's sd was 0.247 against the 0.383 of the shared corpus's sd. 
+
+What I would do next would be to weigh my hybrid model differently. Currently it is weighted 50% BM25 and 50% dense. I would weigh it more heavily towards dense (around 70%). This would help hybrid perform better on the paraphrase queries where a confidently wrong BM25 list can outvote a correct dense answer. What I would want for a reader to take away from this is that adding bm25 to dense on my abstracts, with equal-weight RRF for a hybrid model has no measurable gain over a standard dense model. 
+
+What I would do next would be to weigh my hybrid model differently. Currently it is weighted 50% BM25 and 50% dense. I would weigh it more heavily towards dense (around 70%). How I would know my change worked would be if the new interval for hybrid minus dense did not inlcude 0, and the mean difference was positive.
 
 ---
 
