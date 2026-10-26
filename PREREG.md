@@ -105,8 +105,6 @@ The gold set did reach its size as I had 55 queries, and the target n was 51.11.
 
 What I would do next would be to weigh my hybrid model differently. Currently it is weighted 50% BM25 and 50% dense. I would weigh it more heavily towards dense (around 70%). This would help hybrid perform better on the paraphrase queries where a confidently wrong BM25 list can outvote a correct dense answer. What I would want for a reader to take away from this is that adding bm25 to dense on my abstracts, with equal-weight RRF for a hybrid model has no measurable gain over a standard dense model. 
 
-What I would do next would be to weigh my hybrid model differently. Currently it is weighted 50% BM25 and 50% dense. I would weigh it more heavily towards dense (around 70%). How I would know my change worked would be if the new interval for hybrid minus dense did not inlcude 0, and the mean difference was positive.
-
 ---
 
 ## 6. Amendments
