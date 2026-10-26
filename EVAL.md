@@ -553,7 +553,7 @@ Each repeat answers the same questions, so the repeats are not independent trial
 Does the reranker's gain over its first stage survive the run-to-run variation?
 Write what the spread is, how it compares with the gain, and what the Wilson intervals on the verified share and the declined share say about 8 and 4 questions.
 
-598E: write the repeats result here.
+The reranker's gain over its first stage does survive the run-to-run variation on MRR@10 and nDCG@10. We see that rerank did not differ at all for Recall@10 and MRR@10, as they had the exact same score for all 3 runs. The only difference is that nDCG@10 went down 0.006 on the third run. The first two rerank runs had nDCG@10 equal to 0.711, but for the third run it went down to 0.705. For all 3 runs, rerank minus hybrid was not distinguishable for Recall@10, but was distinguishable for MRR@10 and nDCG@10. For nDCG@10 the spread is .006, which is about 40x smaller than the gain over hybrid of 0.25. On MRR@10 the spread is 0 and the gain is 0.279. For the in questions, 8/8 were verified, so this means all of the questions that could be answered by the corpus had quotes that were found in the retrieved chunks. Our Wilson interval was [0.676, 1.000]. This means that we are 95% certain the true percent of questions that are in the corpus will be verified is between 67.6% and 100%. For the out questions, 4/4 were declined, so this means all of the questions that could not be answered by the corpus were correctly rejected. Our Wilson interval was [0.510, 1.000]. This means that we are 95% certain the true percent of questions that are not able to be answered by the corpus will be rejected is between 51.0% and 100%. The three answer sets answer the same 12 questions. These trials are not independent, so we cannot pool them into 24 of 24 or 12 of 12 to get narrower intervals.
 
 ### The pre-registered claim
 
@@ -561,4 +561,8 @@ The claim, the smallest effect, the gold-set size and the test are in `PREREG.md
 Here, say whether you followed the plan, what the interval turned out to be, and what that means.
 The outcome section of `PREREG.md` holds the short version.
 
-598E: write the claim and its outcome here.
+My preregistered claim was that hybrid will beat dense on nDCG@10 on my arXiv corpus. My plan was a delta of 0.15 and a sd of 0.383 with an n of 51.11. I wrote 55 queries, which is above the 51.11 required to detect a delta of 0.15. My test was the paired 95% confidence interval of hybrid minus dense.
+
+I did follow the plan. I kept the same pair, same metric, the same delta, and I wrote 55 queries.
+
+From my results, I got a mean difference of -0.060, with a confidence interval of [-0.127, 0.001]. This means that our point estimate favors dense over hybrid. My interval was around 0, and 0 is included in the interval. Both ends are inside +- 0.15. This means I have a well-powered null. A difference as large as delta is ruled out. The data rules out hybrid beating dense by 0.15 or more, and rules out dense beating hybrid by that much as well. My MDD was .093, below my delta of 0.15. The test had more power than expected. The reasoning for this is that my corpus had a standard deviation of 0.247 compared to the shared corpus' 0.383 that I estimated. We see that hybrid loses on paraphrase with a mean difference of -0.198, helps slightly on identifier with a mean difference of 0.017, and loses on mixed with a mean difference of -0.013.
